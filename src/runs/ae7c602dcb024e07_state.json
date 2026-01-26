@@ -1,0 +1,856 @@
+{
+  "run_id": "ae7c602dcb024e07",
+  "timestamp": "2026-01-04T23:21:10.634Z",
+  "user_inputs": {
+    "risk_tolerance": "aggressive",
+    "investment_horizon_years": 1,
+    "preferred_sectors": [
+      "energy"
+    ],
+    "num_stocks_requested": 5,
+    "min_volume": 500000
+  },
+  "candidate_tickers": [
+    "AEP",
+    "ATO",
+    "AM",
+    "AEIS",
+    "AQN",
+    "AESI",
+    "ADSE",
+    "AIOT"
+  ],
+  "fundamental_reports": {
+    "AEP": {
+      "ticker": "AEP",
+      "marketCap": null,
+      "peRatio": null,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ATO": {
+      "ticker": "ATO",
+      "marketCap": null,
+      "peRatio": null,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AM": {
+      "ticker": "AM",
+      "marketCap": null,
+      "peRatio": null,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AEIS": {
+      "ticker": "AEIS",
+      "marketCap": null,
+      "peRatio": null,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AQN": {
+      "ticker": "AQN",
+      "marketCap": 4701101549.76,
+      "peRatio": 6.12,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AESI": {
+      "ticker": "AESI",
+      "marketCap": null,
+      "peRatio": null,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ADSE": {
+      "ticker": "ADSE",
+      "marketCap": 758145178.9599999,
+      "peRatio": 12.61,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AIOT": {
+      "ticker": "AIOT",
+      "marketCap": null,
+      "peRatio": null,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    }
+  },
+  "technical_reports": {
+    "AEP": {
+      "ticker": "AEP",
+      "price": 115.81,
+      "rsi": 61.02362204724414,
+      "atr": 4.085425639346715,
+      "atr_pct": 0.03527696778643222,
+      "momentum_3m": 0.020712145249427216,
+      "sma50": 118.48300000000003,
+      "sma200": 110.38097499999999,
+      "volume": 3906683,
+      "atr_30d": 4.085425639346715,
+      "macd_signal": "neutral",
+      "trend_score": 71
+    },
+    "ATO": {
+      "ticker": "ATO",
+      "price": 169.36,
+      "rsi": 53.35138794854437,
+      "atr": 4.077207784208598,
+      "atr_pct": 0.02407420751185993,
+      "momentum_3m": 0.003020432336393375,
+      "sma50": 172.22259999999994,
+      "sma200": 162.77365000000006,
+      "volume": 656476,
+      "atr_30d": 4.077207784208598,
+      "macd_signal": "neutral",
+      "trend_score": 63
+    },
+    "AM": {
+      "ticker": "AM",
+      "price": 17.94,
+      "rsi": 49.16201117318443,
+      "atr": 5.1062752434897725,
+      "atr_pct": 0.2846307270618602,
+      "momentum_3m": -0.06756756756756743,
+      "sma50": 17.825200000000002,
+      "sma200": 17.983099999999997,
+      "volume": 2320049,
+      "atr_30d": 5.1062752434897725,
+      "macd_signal": "neutral",
+      "trend_score": 39
+    },
+    "AEIS": {
+      "ticker": "AEIS",
+      "price": 221.99,
+      "rsi": 56.95897023330653,
+      "atr": 3.7085529722936523,
+      "atr_pct": 0.016705946088984423,
+      "momentum_3m": 0.24657457322551668,
+      "sma50": 210.2338,
+      "sma200": 153.20234999999994,
+      "volume": 337571,
+      "atr_30d": 3.7085529722936523,
+      "macd_signal": "neutral",
+      "trend_score": 67
+    },
+    "AQN": {
+      "ticker": "AQN",
+      "price": 6.12,
+      "rsi": 62.50000000000002,
+      "atr": 4.883771573302335,
+      "atr_pct": 0.798001891062473,
+      "momentum_3m": 0.0680628272251309,
+      "sma50": 5.9678,
+      "sma200": 5.702200000000001,
+      "volume": 5214268,
+      "atr_30d": 4.883771573302335,
+      "macd_signal": "neutral",
+      "trend_score": 73
+    },
+    "AESI": {
+      "ticker": "AESI",
+      "price": 9.72,
+      "rsi": 42.68774703557314,
+      "atr": 3.428158841307869,
+      "atr_pct": 0.352691238817682,
+      "momentum_3m": -0.13753327417923678,
+      "sma50": 9.8404,
+      "sma200": 12.257699999999998,
+      "volume": 3262845,
+      "atr_30d": 3.428158841307869,
+      "macd_signal": "neutral",
+      "trend_score": 33
+    },
+    "ADSE": {
+      "ticker": "ADSE",
+      "price": 12.61,
+      "rsi": 52.36486486486484,
+      "atr": 6.650190786028724,
+      "atr_pct": 0.5273743684400257,
+      "momentum_3m": 0.11199294532627868,
+      "sma50": 11.3797,
+      "sma200": 11.728799999999994,
+      "volume": 9004,
+      "atr_30d": 6.650190786028724,
+      "macd_signal": "neutral",
+      "trend_score": 42
+    },
+    "AIOT": {
+      "ticker": "AIOT",
+      "price": 5.25,
+      "rsi": 48.54368932038834,
+      "atr": 3.7845898897685784,
+      "atr_pct": 0.7208742647178245,
+      "momentum_3m": 0,
+      "sma50": 5.072200000000001,
+      "sma200": 4.938600000000001,
+      "volume": 1015758,
+      "atr_30d": 3.7845898897685784,
+      "macd_signal": "neutral",
+      "trend_score": 59
+    }
+  },
+  "news_reports": {
+    "AEP": [
+      {
+        "headline": "X pulse: - No influential posts (50+ favorites) directly about AEP stock found between Dec 28, 2025, and Jan 4, 2026, indicating low discussion volume.\n- Posts on similar tickers like #AEFES (Turkish stock) express bullish sentiment, citing strong balance sheets, high expectations, and price targets of 28-32 TL by end-2026, up to 50 TL long-term.\n- Technical analysis on #aefes highlights support at 15.54 TL and resistance at 15.98-16.26 TL, suggesting potential upside if support holds.\n- Nearby utility tickers like $AES show positive monthly breakouts toward 50-day EMA, reflecting broader sector optimism found on X.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/AlumniDeFi/status/2005866771027218679",
+          "https://x.com/AbbyasCortez/status/2007197059171135882",
+          "https://x.com/FFC03Josh/status/2006309275191201978",
+          "https://x.com/borsanin_dayisi/status/2006787253700587870",
+          "https://x.com/NitranTrades/status/2007178108307468466",
+          "https://x.com/786mwiky/status/2006833309595349233",
+          "https://x.com/My_CryptoNews/status/2006319879968666085",
+          "https://x.com/Necmi0405/status/2007046367873790039",
+          "https://x.com/ScalpingX/status/2007475850493706257",
+          "https://x.com/SanadAlEzz/status/2006022880505610639"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts specifically about AEP stock with 30+ upvotes found from 2025-12-28 to 2026-01-04.\n- Broader r/stocks and r/investing discussions on 2026 predictions and 2025 returns show neutral-to-bullish market sentiment, but no AEP mentions.\n- r/ValueInvesting thread \"What Stock Will Run In 2026?\" (81 upvotes) focuses on other tickers like Alphabet, ignoring utilities like AEP.",
+        "impact": "pending",
+        "citations": [
+          "https://www.wallstreetzen.com/stocks/us/nasdaq/aep/stock-forecast",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://finance.yahoo.com/",
+          "https://www.marketbeat.com/stocks/NASDAQ/AEP/forecast/",
+          "https://www.reddit.com/r/stocks/comments/1q0x0oc/2025_returns_by_asset_class/",
+          "https://www.reddit.com/r/investing/comments/1pywhq3/2026_outlook_and_expectations/",
+          "https://www.investing.com/analysis/reddit-buy-alert-could-it-really-have-40-upside-potential-200672575",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q191ss/what_stock_will_run_in_2026/"
+        ]
+      }
+    ],
+    "ATO": [
+      {
+        "headline": "X pulse: - Posts found on X hype $ATO as a high-potential token with predictions of rapid price surges to $100K+, reflecting strong bullish sentiment among niche traders.\n- AOT investment strategy reviews emphasize solid historical returns (e.g., +295% since 2022), fostering positive outlook for 2026 among stock enthusiasts.\n- Technical breakdowns on ATOS note volatile rebounds from oversold levels with key support/resistance zones, indicating cautious optimism amid high risk.\n- Limited high-engagement posts (min_faves:50) on ATO stock specifically suggest subdued mainstream sentiment, dominated by low-volume crypto promotions.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/0x24yyy1/status/2007499856034836843",
+          "https://x.com/Y2KSolOfficial/status/2007558907917734050",
+          "https://x.com/traderstewie/status/2006901803086913569",
+          "https://x.com/perpx_aiagent/status/2006611017317421067",
+          "https://x.com/yass9000/status/2007062887676731404",
+          "https://x.com/AlgoFundo/status/2006942414049788190",
+          "https://x.com/Customized_Fix/status/2005600014223982665",
+          "https://x.com/DAMarket_Sec/status/2005773654383288337",
+          "https://x.com/Zgg94069/status/2007595594148393208",
+          "https://x.com/retail_mourinho/status/2006104316202082354"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts specifically discussing ATO (Atmos Energy or Atos SE) stock with 30+ upvotes found in r/stocks or similar subs from 2025-12-28 to 2026-01-04.\n- General 2026 stock pick threads (e.g., r/stocks \"Reddit's 2026 Stock Picks\", 1.1K upvotes) do not mention ATO, focusing on MAG7, AVGO, and others.\n- High-engagement posts like \"J.P Morgan's Top Stock Picks for 2026\" (187 upvotes) highlight AVGO but omit ATO, with neutral-to-bullish sentiment on tech.\n- r/ValueInvesting \"What Stock Will Run In 2026?\" (81 upvotes) praises Alphabet's 2025 run but no ATO references.\n- Overall sentiment on ATO appears absent in recent popular discussions, suggesting low buzz.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q0v20i/jp_morgans_top_stock_picks_for_2026_what_do_you/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q191ss/what_stock_will_run_in_2026/",
+          "https://walletinvestor.com/euronext-pa-stock-forecast/ato-stock-prediction",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436"
+        ]
+      }
+    ],
+    "AM": [
+      {
+        "headline": "X pulse: - Posts found on X express bullish sentiment for $AMZN, listing it as a top position into 2026 after a strong +63% year for some traders.\n- High conviction noted for $AMZN's upward trend in 2026 portfolios, tied to AI investments and Mag7 recovery.\n- Short-term positive trading signals for $AMIX, including reported 55% gains and daytrade breakouts above $0.90.\n- #AMBUJACEM highlighted with medium-term upside targets up to 875+, educational outlook above 520 support.\n- Limited high-engagement posts overall, suggesting muted influential buzz on $AM-related tickers during the period.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/pradeeepk/status/2006568104210608190",
+          "https://x.com/pradeeepk/status/2006568239468556643",
+          "https://x.com/forcewalke81743/status/2007427010268635144",
+          "https://x.com/AdityaS02122675/status/2007012549108326436",
+          "https://x.com/SanadAlEzz/status/2005997558762733945",
+          "https://x.com/Amit00253158/status/2005936665060159956",
+          "https://x.com/Amit00253158/status/2005936657468436929",
+          "https://x.com/AnunTrades/status/2006010624686313673",
+          "https://x.com/MadeinBorsacom/status/2006739028914192463",
+          "https://x.com/Amit00253158/status/2005530925409718344"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No recent Reddit posts about $AM (Antero Midstream) with 30+ upvotes found in r/stocks or similar subs from 2025-12-28 to 2026-01-04; discussion appears minimal.\n- General r/stocks threads on 2026 watchlists and predictions (e.g., \"Reddit's 2026 Stock Picks\") do not mention $AM, indicating neutral to absent sentiment.\n- High-engagement posts focus on broader market predictions and popular tickers like RDDT, bypassing midstream energy plays like $AM.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.marketbeat.com/stocks/NYSE/RDDT/forecast/",
+          "https://www.reddit.com/r/stocks/new/",
+          "https://www.reddit.com/r/stocks/hot/",
+          "https://www.investing.com/analysis/reddit-buy-alert-could-it-really-have-40-upside-potential-200672575"
+        ]
+      }
+    ],
+    "AEIS": [
+      {
+        "headline": "X pulse: - Multiple posts on X note $AEIS demonstrating repeated strength and bounces off the 50-day moving average (50MA), signaling bullish resilience.\n- Traders highlight higher lows tested three times at the 50MA, positioning the stock for potential upside continuation.\n- Sentiment points to a possible breakout from two-month consolidation near all-time highs, with the stock ranking well in its sector group.\n- Overall tone is optimistic, with users watching for confirmation above key levels for further gains.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/spluscollective/status/2006555617406685631",
+          "https://x.com/PaulJSingh/status/2007112057007800426",
+          "https://x.com/AlbertAgarunov/status/2007512283019174327",
+          "https://x.com/Dorman06/status/2007405948890120702",
+          "https://x.com/william_R2Rclub/status/2006559198193267166",
+          "https://x.com/Customized_Fix/status/2005990051151249726",
+          "https://x.com/AbbyasCortez/status/2007197059171135882",
+          "https://x.com/786mwiky/status/2006833309595349233",
+          "https://x.com/kamilkrakowiak3/status/2006397073067823457",
+          "https://x.com/Wolverine0911/status/2007164906416882051"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AEIS stock in r/stocks or similar subs from 2025-12-28 to 2026-01-04 with ≥30 upvotes were found, indicating low recent discussion or engagement.\n- General r/stocks activity focused on other tickers like INTC, ASTS, but zero mentions of AEIS meeting criteria, suggesting neutral to absent sentiment.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1pznajl/bought_intc_on_dec_29_2025_at_36495_thoughts_on/",
+          "https://www.reddit.com/r/stocks/comments/1q27ae7/2026_kicked_off_with_a_bang_asts_is_leading_the/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1pzvn46/asts_up_big_today_heres_why_and_why_its_still/",
+          "https://www.reddit.com/r/Silverbugs/comments/1pyjtzf/this_is_odd/",
+          "https://finance.yahoo.com/news/looking-big-ai-winners-2026-171414172.html",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436",
+          "https://www.reddit.com/r/stocks/comments/1q2ktx2/thought_on_ces_next_week/"
+        ]
+      }
+    ],
+    "AQN": [
+      {
+        "headline": "X pulse: - **No influential posts found**: Searches on X for AQN stock with min_faves:50 from 2025-12-28 to 2026-01-04 returned zero results, indicating minimal buzz among high-engagement users.\n- **Low visibility sentiment**: Absence of popular posts suggests neutral to overlooked market interest in AQN during late 2025 year-end and early 2026.\n- **Lack of hype or criticism**: No viral bullish or bearish takes emerged, pointing to subdued discussion compared to hotter tickers like QQQ.\n- **Potential quiet period**: Posts on X focused elsewhere (e.g., Nasdaq indices), implying AQN flew under the radar for influential accounts.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/kautiousCo/status/2006539376709312714",
+          "https://x.com/danshep55/status/2007196956867842167",
+          "https://x.com/_AlmightyQuan55/status/2006888805425430895",
+          "https://x.com/keanxley/status/2007590475465928917",
+          "https://x.com/KingMakerIQ/status/2007072597784326485",
+          "https://x.com/SergeyB90971685/status/2006334275189346656",
+          "https://x.com/ArcticFoxCap/status/2006824485127905292",
+          "https://x.com/respectZMAGK777/status/2007095037671477581",
+          "https://x.com/AliceSoulAI/status/2007402847235649648",
+          "https://x.com/danshep55/status/2006778093512298538"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AQN stock with ~30+ upvotes found in the specified date range (2025-12-28 to 2026-01-04).\n- Overall sentiment unavailable due to lack of recent, highly engaged discussions on r/stocks or similar subs.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://finance.yahoo.com/",
+          "https://www.reddit.com/r/Bitcoin/comments/1pz9os4/what_to_expect_about_btc_in_big_2026/",
+          "https://www.reddit.com/r/Bitcoin/comments/1pznaz4/poll_what_are_your_predictions_for_bitcoin_in/",
+          "https://www.google.com/finance/quote/RDDT:NYSE?hl=en",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q191ss/what_stock_will_run_in_2026/"
+        ]
+      }
+    ],
+    "AESI": [
+      {
+        "headline": "X pulse: - Posts found on X describe $AEIS exhibiting strong bounces off the 50MA multiple times, indicating robust support and potential upside momentum.\n- Multiple users note higher lows aligning with the 50MA on $AEIS charts, positioning it as a stock to watch for breakout.\n- Sentiment around $AEIS is bullish, with mentions of continuation patterns and repeated successful tests of key moving averages.\n- Overall tone from relevant posts is optimistic, focusing on technical strength without bearish counters in the period.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/saliya_g/status/2006925068711149948",
+          "https://x.com/MultibaggAI/status/2007384229211263159",
+          "https://x.com/PaulJSingh/status/2007112057007800426",
+          "https://x.com/spluscollective/status/2006555617406685631",
+          "https://x.com/saliya_g/status/2006207388257509852",
+          "https://x.com/cgsi_id/status/2006899227679666670",
+          "https://x.com/cgsi_id/status/2005452261594747100",
+          "https://x.com/NitranTrades/status/2007178108307468466",
+          "https://x.com/Dorman06/status/2007405948890120702",
+          "https://x.com/neilksethi/status/2007054515208646985"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AESI stock with ≥30 upvotes found in r/ subreddits from 2025-12-28 to 2026-01-04.\n- Search yielded general 2026 stock prediction threads (e.g., r/stocks, r/ValueInvesting), but none mentioned AESI.\n- Closest tangential post in r/Silverbugs (Dec 29, low engagement) discussed ASE bullion prices, unrelated to AESI ticker.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/IndianStockMarket/comments/1q0ap3x/your_best_stock_pick_for_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q0x0oc/2025_returns_by_asset_class/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/",
+          "https://www.reddit.com/r/Silverbugs/comments/1pyjtzf/this_is_odd/",
+          "https://www.reddit.com/r/stocks/comments/1q0ltrm/feeling_pretty_good_about_my_portfolio_going_into/"
+        ]
+      }
+    ],
+    "ADSE": [
+      {
+        "headline": "X pulse: - No influential posts (50+ faves) directly about ADSE stock found on X in the queried period, indicating low visibility.\n- Absence of high-engagement discussion suggests neutral to negligible sentiment among influential users.\n- Related stock chatter focuses on other tickers like $ADBE, with bearish 2025 recap (-20%) but optimistic new year vibes.\n- Crypto mentions (e.g., $ADA) show mixed signals, including shorts and minor buys, but unrelated to ADSE.\n- Overall, platform sentiment on ADSE appears dormant based on search results.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/ferele5447/status/2006999112642707630",
+          "https://x.com/musabhassan8999/status/2007143395471524061",
+          "https://x.com/TrendSpider/status/2006742215326847028",
+          "https://x.com/YoshioStocks/status/2007102509387759791",
+          "https://x.com/navis_academy/status/2006670498898522164",
+          "https://x.com/SL_Stocks/status/2007321457907642665",
+          "https://x.com/N1000_inv/status/2007130397940093097",
+          "https://x.com/navis_academy/status/2007032886755807288",
+          "https://x.com/saliya_dhruvil/status/2006548960476016943",
+          "https://x.com/InvestWithAkhil/status/2006673726637748308"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No recent Reddit posts (2025-12-28 to 2026-01-04) about ADSE stock in r/ subreddits with ~30+ upvotes were found.\n- General stock discussions in r/stocks and r/investing focus on 2026 predictions, watchlists (e.g., AMD, ASML), but none mention ADSE.\n- High-engagement threads emphasize broad market outlooks, valuations, and picks like MU or Reddit itself, with neutral to bullish sentiment overall.\n- r/ValueInvesting post regrets missing ASML gains (38 upvotes), highlighting tech/semiconductor interest, but no ADSE reference.\n- r/stocks \"Reddit's 2026 Stock Picks\" (1.1K upvotes) aggregates user favorites from multiple subs, excluding ADSE.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/investing/comments/1pzju0w/do_you_think_amd_can_still_go_up_in_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://en.wikipedia.org/wiki/Reddit",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q1fa6s/i_should_have_invested_in_asml/",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436"
+        ]
+      }
+    ],
+    "AIOT": [
+      {
+        "headline": "X pulse: - Posts on X show cautiously bullish sentiment for $AIOT, with traders noting price consolidation near resistance levels like 0.1215 and potential upside if support at 0.1077-0.1116 holds.\n- Several analyses highlight recent gains, such as 60% pumps and hit targets up to 0.1181, with excitement for further breakouts toward 0.1236 or higher.\n- Open interest increases alongside price rises (up to +34% in 24h) signal positive momentum, though RSI levels indicate overbought conditions in shorter timeframes.\n- Some posts mention bearish short-term indecision or manipulation in 5m charts, but overall structure remains bullish on 1h-4h frames.\n- No posts meeting the min_faves:50 threshold were found, suggesting limited high-influence discussion during the period.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/786mwiky/status/2006833309595349233",
+          "https://x.com/Finora_EN/status/2007352913287324004",
+          "https://x.com/Finora_EN/status/2007547591152578858",
+          "https://x.com/mezie2244/status/2005580934582767647",
+          "https://x.com/mezie2244/status/2005580973090738485",
+          "https://x.com/CryptostarExper/status/2007444149532860569",
+          "https://x.com/Customized_Fix/status/2005990051151249726",
+          "https://x.com/FinoraAI_ES/status/2005955549100224668",
+          "https://x.com/Customized_Fix/status/2005990494413746380",
+          "https://x.com/Finora_EN/status/2007371431802196213"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AIOT stock in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes found.\n- General AI stock discussions (e.g., r/investing, r/stocks) show mixed optimism for AI trends in 2026, but none mention AIOT specifically.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/investing/comments/1pyshgv/how_do_you_guys_see_the_overall_trend_for_ai_tech/",
+          "https://finance.yahoo.com/news/looking-big-ai-winners-2026-171414172.html",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.cnbc.com/2025/12/30/analyst-reveals-3-ai-stocks-to-dominate-2026-plus-metas-next-move.html",
+          "https://www.cnbc.com/2026/01/02/meet-the-2026-stock-market-its-the-same-ai-reliant-market-of-2025.html",
+          "https://www.reddit.com/r/stocks/comments/1q0ltrm/feeling_pretty_good_about_my_portfolio_going_into/",
+          "https://www.reddit.com/r/stocks/comments/1q119dp/rstocks_daily_discussion_options_trading_thursday/",
+          "https://www.bloomberg.com/graphics/2026-investment-outlooks/"
+        ]
+      }
+    ]
+  },
+  "sentiment_reports": {
+    "AEP": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No direct influential posts or discussions about AEP on X or Reddit, signaling low volume and interest. Indirect mentions of similar tickers (#AEFES bullish, $AES sector optimism) provide minor positive context but are not specific to AEP, which is also overlooked in broader threads like r/ValueInvesting.",
+      "confidence": 0.3
+    },
+    "ATO": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Snippets show hype for $ATO crypto token (bullish predictions) but explicitly note limited high-engagement posts on ATO stock specifically, with subdued mainstream sentiment. AOT strategies and ATOS technicals suggest some positivity but appear unrelated or variant tickers. Reddit lacks any ATO mentions in popular threads, indicating low buzz and absent short-term sentiment drivers for the stock.",
+      "confidence": 0.5
+    },
+    "AM": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Snippets show no direct mentions or discussions of $AM (Antero Midstream) on X or Reddit; X pulse references unrelated tickers like $AMZN, $AMIX, #AMBUJACEM with mixed bullish tones but notes limited high-engagement on $AM-related tickers; Reddit has zero recent high-upvote posts or mentions in watchlists, indicating absent sentiment and minimal buzz.",
+      "confidence": 0.9
+    },
+    "AEIS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.75,
+      "stance": "bullish",
+      "rationale": "X posts show strong bullish signals with repeated bounces off 50MA, higher lows, potential breakout from consolidation near all-time highs, and optimistic tone among traders. Reddit lacks any significant mentions, contributing neutral/absent sentiment but not countering the positive X momentum.",
+      "confidence": 0.8
+    },
+    "AQN": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts on X (min_faves:50) or Reddit (~30+ upvotes) found for AQN in the date range 2025-12-28 to 2026-01-04, indicating minimal buzz, low visibility, and subdued discussion. Absence of both hype and criticism points to neutral short-term sentiment with AQN overlooked compared to hotter tickers.",
+      "confidence": 0.9
+    },
+    "AESI": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No Reddit posts about AESI. X posts discuss $AEIS (different ticker from AESI), providing no applicable sentiment data for AESI.",
+      "confidence": 1
+    },
+    "ADSE": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential or high-engagement posts about ADSE found on X or Reddit in the queried periods, with discussions focusing on unrelated tickers and general market outlooks. Absence of visibility indicates dormant, neutral short-term sentiment.",
+      "confidence": 0.95
+    },
+    "AIOT": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.65,
+      "stance": "bullish",
+      "rationale": "X posts indicate cautiously bullish sentiment with price consolidation near resistance, recent 60% gains, excitement for breakouts, and rising open interest signaling positive momentum on 1h-4h frames, despite short-term overbought RSI and minor indecision. Lack of high-influence posts (min_faves:50) and no specific Reddit mentions tempers enthusiasm but does not override overall positive structure.",
+      "confidence": 0.7
+    }
+  },
+  "available_realtime_tools": {
+    "search_x_influential_posts": {
+      "name": "search_x_influential_posts",
+      "description": "Real-time search of influential X (Twitter) posts about stocks, earnings, insider moves, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7
+            ],
+            "default": 7
+          },
+          "min_engagement": {
+            "type": "integer",
+            "default": 50
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    },
+    "search_financial_subreddits": {
+      "name": "search_financial_subreddits",
+      "description": "Real-time search of r/wallstreetbets, r/stocks, r/investing, r/SecurityAnalysis, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7,
+              14
+            ],
+            "default": 7
+          },
+          "min_upvotes": {
+            "type": "integer",
+            "default": 30
+          },
+          "limit": {
+            "type": "integer",
+            "default": 15
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    }
+  },
+  "ticker_names": {
+    "AEP": "American Electric Power Company, Inc.",
+    "ATO": "Atmos Energy Corporation",
+    "AM": "Antero Midstream Corporation Common Stock",
+    "AEIS": "Advanced Energy Industries Inc",
+    "AQN": "Algonquin Power & Utilities Corp",
+    "AESI": "Atlas Energy Solutions Inc.",
+    "ADSE": "ADS-TEC ENERGY PLC Ordinary Shares",
+    "AIOT": "PowerFleet, Inc. Common Stock"
+  },
+  "bull_case": "As the Bull Researcher, I present a compelling bullish case for the tickers AEP, ATO, and AM, emphasizing structural tailwinds and revenue durability. Despite the current zero revenue growth, these companies are strategically positioned within sectors experiencing robust demand and long-term stability. AEP, as a utility provider, benefits from the ongoing transition to renewable energy, ensuring consistent demand and regulatory support. ATO, operating in the natural gas distribution sector, is poised to capitalize on the increasing shift towards cleaner energy sources, providing a reliable revenue stream. AM, involved in midstream energy infrastructure, stands to gain from the sustained need for energy transportation and storage, driven by global energy demands. These structural tailwinds, coupled with the essential nature of their services, underpin the durability of their revenue streams, making them attractive long-term investments.",
+  "bear_case": "While the bull case for AEP, ATO, and AM highlights structural tailwinds, it's crucial to consider the valuation risks and macroeconomic sensitivities these companies face. AEP, despite benefiting from renewable energy trends, shows a high trend score of 71, indicating potential overvaluation and susceptibility to market corrections. ATO's moderate RSI of 53.35 suggests limited momentum, and its reliance on natural gas exposes it to volatility in energy prices and regulatory shifts. AM, with a low trend score of 39, reflects weak market sentiment and potential underperformance, compounded by its exposure to fluctuating global energy demands.\n\nThe zero revenue growth across these companies raises concerns about their ability to capitalize on purported tailwinds effectively. Additionally, macroeconomic factors such as interest rate hikes and economic slowdowns could adversely impact their capital-intensive operations and financing costs. Therefore, while the essential nature of their services provides some stability, the risks of valuation, volatility, and macroeconomic sensitivity cannot be overlooked.",
+  "debate_summary": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%.",
+  "trader_proposal": [
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries Inc",
+      "score": 87.5,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "AEP",
+      "name": "American Electric Power Company, Inc.",
+      "score": 76,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy Corporation",
+      "score": 72,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "AM",
+      "name": "Antero Midstream Corporation Common Stock",
+      "score": 68,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "ADSE",
+      "name": "ADS-TEC ENERGY PLC Ordinary Shares",
+      "score": 64,
+      "raw_allocation": 0.2
+    }
+  ],
+  "risk_votes": {
+    "aggressive": "approve_with_monitoring",
+    "neutral": "approve",
+    "conservative": "veto"
+  },
+  "risk_adjusted_proposal": [
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries Inc",
+      "score": 87.5,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "AEP",
+      "name": "American Electric Power Company, Inc.",
+      "score": 76,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy Corporation",
+      "score": 72,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "AM",
+      "name": "Antero Midstream Corporation Common Stock",
+      "score": 68,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "ADSE",
+      "name": "ADS-TEC ENERGY PLC Ordinary Shares",
+      "score": 64,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    }
+  ],
+  "vix_level": 18,
+  "high_volatility_tickers": [
+    "AEP",
+    "ATO",
+    "AM",
+    "AEIS",
+    "AQN",
+    "AESI",
+    "ADSE",
+    "AIOT"
+  ],
+  "final_portfolio": [
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries Inc",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 87.5, sector fit Advanced Energy Industries Inc"
+    },
+    {
+      "ticker": "AEP",
+      "name": "American Electric Power Company, Inc.",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 76, sector fit American Electric Power Company, Inc."
+    },
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy Corporation",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 72, sector fit Atmos Energy Corporation"
+    },
+    {
+      "ticker": "AM",
+      "name": "Antero Midstream Corporation Common Stock",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 68, sector fit Antero Midstream Corporation Common Stock"
+    },
+    {
+      "ticker": "ADSE",
+      "name": "ADS-TEC ENERGY PLC Ordinary Shares",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 64, sector fit ADS-TEC ENERGY PLC Ordinary Shares"
+    }
+  ],
+  "full_transcript": [
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:12.615Z",
+      "agent": "Market Scanner Agent",
+      "message": "Selected 8 tickers using sectors=energy, minVolume=500000"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:16.850Z",
+      "agent": "Fundamental Analyst",
+      "message": "Generated fundamentals for 8 tickers"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:16.916Z",
+      "agent": "Technical Analyst",
+      "message": "Calculated technical indicators for 8 tickers"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:34.412Z",
+      "agent": "News Analyst",
+      "message": "Fetched Grok live search summaries for X and Reddit"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:44.672Z",
+      "agent": "Sentiment Analyst",
+      "message": "Computed sentiment using Grok tool context + LiteLLM fast model"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:48.458Z",
+      "agent": "Bull Researcher",
+      "message": "As the Bull Researcher, I present a compelling bullish case for the tickers AEP, ATO, and AM, emphasizing structural tailwinds and revenue durability. Despite the current zero revenue growth, these companies are strategically positioned within sectors experiencing robust demand and long-term stability. AEP, as a utility provider, benefits from the ongoing transition to renewable energy, ensuring consistent demand and regulatory support. ATO, operating in the natural gas distribution sector, is poised to capitalize on the increasing shift towards cleaner energy sources, providing a reliable revenue stream. AM, involved in midstream energy infrastructure, stands to gain from the sustained need for energy transportation and storage, driven by global energy demands. These structural tailwinds, coupled with the essential nature of their services, underpin the durability of their revenue streams, making them attractive long-term investments."
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.409Z",
+      "agent": "Bear Researcher",
+      "message": "While the bull case for AEP, ATO, and AM highlights structural tailwinds, it's crucial to consider the valuation risks and macroeconomic sensitivities these companies face. AEP, despite benefiting from renewable energy trends, shows a high trend score of 71, indicating potential overvaluation and susceptibility to market corrections. ATO's moderate RSI of 53.35 suggests limited momentum, and its reliance on natural gas exposes it to volatility in energy prices and regulatory shifts. AM, with a low trend score of 39, reflects weak market sentiment and potential underperformance, compounded by its exposure to fluctuating global energy demands.\n\nThe zero revenue growth across these companies raises concerns about their ability to capitalize on purported tailwinds effectively. Additionally, macroeconomic factors such as interest rate hikes and economic slowdowns could adversely impact their capital-intensive operations and financing costs. Therefore, while the essential nature of their services provides some stability, the risks of valuation, volatility, and macroeconomic sensitivity cannot be overlooked."
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.409Z",
+      "agent": "Debate Moderator",
+      "message": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%."
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.410Z",
+      "agent": "Trader Agent",
+      "message": "Ranked 5 tickers with preliminary equal weights"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.555Z",
+      "agent": "Get VIX Agent",
+      "message": "VIX level recorded at 18"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.556Z",
+      "agent": "Aggressive Risk Agent",
+      "message": "Signed off with caveats on earnings dates and liquidity"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.556Z",
+      "agent": "Neutral Risk Agent",
+      "message": "No objections; allocations acceptable"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.556Z",
+      "agent": "Conservative Risk Agent",
+      "message": "VETO: VIX 18 or high ATR tickers AEP, ATO, AM, AEIS, AQN, AESI, ADSE, AIOT"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.556Z",
+      "agent": "Risk Supervisor",
+      "message": "Conservative veto enforced; allocations penalized for volatility"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.556Z",
+      "agent": "Fund Manager",
+      "message": "Applied 30% cap, normalized weights, and prepared final list"
+    },
+    {
+      "run_id": "ae7c602dcb024e07",
+      "timestamp": "2026-01-04T23:21:51.556Z",
+      "agent": "Report Writer",
+      "message": "ATHENA ADVISORY – 2026-01-04 | Run ID: ae7c602dcb024e07\nRisk Profile: aggressive | Horizon: 1 yrs | Requested: 5\nVIX: 18\nFINAL RECOMMENDED PORTFOLIO\n1. AEIS – 20% – Risk-adjusted score 87.5, sector fit Advanced Energy Industries Inc\n2. AEP – 20% – Risk-adjusted score 76, sector fit American Electric Power Company, Inc.\n3. ATO – 20% – Risk-adjusted score 72, sector fit Atmos Energy Corporation\n4. AM – 20% – Risk-adjusted score 68, sector fit Antero Midstream Corporation Common Stock\n5. ADSE – 20% – Risk-adjusted score 64, sector fit ADS-TEC ENERGY PLC Ordinary Shares\nNote: Advisory only; no auto-execution. Max single position capped at 30%."
+    }
+  ]
+}

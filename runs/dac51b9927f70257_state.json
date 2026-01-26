@@ -1,0 +1,1952 @@
+{
+  "run_id": "dac51b9927f70257",
+  "timestamp": "2026-01-04T23:28:58.455Z",
+  "user_inputs": {
+    "risk_tolerance": "aggressive",
+    "investment_horizon_years": 1,
+    "preferred_sectors": [
+      "Healthcare"
+    ],
+    "num_stocks_requested": 5,
+    "min_volume": 500000
+  },
+  "candidate_tickers": [
+    "AMD",
+    "ADI",
+    "ALNY",
+    "AHR",
+    "ACAD",
+    "ALHC",
+    "AMRX",
+    "APLS",
+    "ADPT",
+    "AVDL",
+    "AUPH",
+    "ANIP",
+    "AVAH",
+    "AGIO",
+    "AHCO",
+    "ACHC",
+    "ASTH",
+    "AMLX",
+    "ARDT",
+    "AMPH",
+    "ABUS",
+    "AVBP",
+    "AMN",
+    "AVNS"
+  ],
+  "fundamental_reports": {
+    "AMD": {
+      "ticker": "AMD",
+      "marketCap": 363818442943.8,
+      "peRatio": 223.47,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "marketCap": 134037912512.78,
+      "peRatio": 273.74,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ALNY": {
+      "ticker": "ALNY",
+      "marketCap": 52867986549.060005,
+      "peRatio": 400.17,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AHR": {
+      "ticker": "AHR",
+      "marketCap": 8416494097.84,
+      "peRatio": 47.24,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ACAD": {
+      "ticker": "ACAD",
+      "marketCap": 4447789968.93,
+      "peRatio": 26.290000000000003,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ALHC": {
+      "ticker": "ALHC",
+      "marketCap": 4045855023.24,
+      "peRatio": 20.22,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMRX": {
+      "ticker": "AMRX",
+      "marketCap": 3979834567.2,
+      "peRatio": 12.66,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "APLS": {
+      "ticker": "APLS",
+      "marketCap": 3271942137.48,
+      "peRatio": 25.86,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ADPT": {
+      "ticker": "ADPT",
+      "marketCap": 2428903141.08,
+      "peRatio": 15.91,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVDL": {
+      "ticker": "AVDL",
+      "marketCap": 2111997289.76,
+      "peRatio": 21.52,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AUPH": {
+      "ticker": "AUPH",
+      "marketCap": 2023752580.6499999,
+      "peRatio": 15.35,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ANIP": {
+      "ticker": "ANIP",
+      "marketCap": 1761394116.2400002,
+      "peRatio": 78.43,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVAH": {
+      "ticker": "AVAH",
+      "marketCap": 1688003974.64,
+      "peRatio": 8.08,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AGIO": {
+      "ticker": "AGIO",
+      "marketCap": 1584969410.16,
+      "peRatio": 27.18,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AHCO": {
+      "ticker": "AHCO",
+      "marketCap": 1309553309.78,
+      "peRatio": 9.67,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ACHC": {
+      "ticker": "ACHC",
+      "marketCap": 1292448489.6899998,
+      "peRatio": 14.289999999999997,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ASTH": {
+      "ticker": "ASTH",
+      "marketCap": 1264924559.86,
+      "peRatio": 25.22,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMLX": {
+      "ticker": "AMLX",
+      "marketCap": 1254139477.98,
+      "peRatio": 11.42,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ARDT": {
+      "ticker": "ARDT",
+      "marketCap": 1237141563.8400002,
+      "peRatio": 8.64,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMPH": {
+      "ticker": "AMPH",
+      "marketCap": 1215894524.04,
+      "peRatio": 26.46,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ABUS": {
+      "ticker": "ABUS",
+      "marketCap": 917385561.0899999,
+      "peRatio": 4.77,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVBP": {
+      "ticker": "AVBP",
+      "marketCap": 858652308.8000001,
+      "peRatio": 20.8,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMN": {
+      "ticker": "AMN",
+      "marketCap": 580816353.6,
+      "peRatio": 15.120000000000001,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVNS": {
+      "ticker": "AVNS",
+      "marketCap": 518963380.26,
+      "peRatio": 11.18,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    }
+  },
+  "technical_reports": {
+    "AMD": {
+      "ticker": "AMD",
+      "price": 223.47,
+      "rsi": 64.31956668923496,
+      "atr": 4.799936881626101,
+      "atr_pct": 0.02147911076039782,
+      "momentum_3m": 0.31662051493548593,
+      "sma50": 227.62740000000005,
+      "sma200": 163.23462500000002,
+      "volume": 36443331,
+      "atr_30d": 4.799936881626101,
+      "macd_signal": "neutral",
+      "trend_score": 74
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "price": 273.74,
+      "rsi": 39.62825278810413,
+      "atr": 6.711541266136534,
+      "atr_pct": 0.02451794135360756,
+      "momentum_3m": 0.1327016179087186,
+      "sma50": 255.3536,
+      "sma200": 232.59582499999996,
+      "volume": 3608019,
+      "atr_30d": 6.711541266136534,
+      "macd_signal": "neutral",
+      "trend_score": 50
+    },
+    "ALNY": {
+      "ticker": "ALNY",
+      "price": 400.17,
+      "rsi": 53.24900793650794,
+      "atr": 7.313380363597308,
+      "atr_pct": 0.018275683743402323,
+      "momentum_3m": -0.13193344758020775,
+      "sma50": 434.6743999999999,
+      "sma200": 371.90772499999986,
+      "volume": 730422,
+      "atr_30d": 7.313380363597308,
+      "macd_signal": "neutral",
+      "trend_score": 63
+    },
+    "AHR": {
+      "ticker": "AHR",
+      "price": 47.24,
+      "rsi": 49.86737400530507,
+      "atr": 5.4381412779594065,
+      "atr_pct": 0.11511730054952173,
+      "momentum_3m": 0.14327202323330113,
+      "sma50": 47.814799999999984,
+      "sma200": 39.59224999999999,
+      "volume": 1629452,
+      "atr_30d": 5.4381412779594065,
+      "macd_signal": "neutral",
+      "trend_score": 60
+    },
+    "ACAD": {
+      "ticker": "ACAD",
+      "price": 26.29,
+      "rsi": 40.137614678899105,
+      "atr": 3.0308999051642047,
+      "atr_pct": 0.11528717783051369,
+      "momentum_3m": 0.22965388213283444,
+      "sma50": 24.804799999999986,
+      "sma200": 21.875875,
+      "volume": 1666166,
+      "atr_30d": 3.0308999051642047,
+      "macd_signal": "neutral",
+      "trend_score": 50
+    },
+    "ALHC": {
+      "ticker": "ALHC",
+      "price": 20.22,
+      "rsi": 59.3886462882096,
+      "atr": 4.1086956327373185,
+      "atr_pct": 0.20319958618878925,
+      "momentum_3m": 0.2598130841121493,
+      "sma50": 18.259399999999996,
+      "sma200": 16.384700000000002,
+      "volume": 2572340,
+      "atr_30d": 4.1086956327373185,
+      "macd_signal": "neutral",
+      "trend_score": 69
+    },
+    "AMRX": {
+      "ticker": "AMRX",
+      "price": 12.66,
+      "rsi": 62.032085561497304,
+      "atr": 7.455850191047658,
+      "atr_pct": 0.5889297149326743,
+      "momentum_3m": 0.2173076923076922,
+      "sma50": 11.850599999999996,
+      "sma200": 9.319500000000001,
+      "volume": 1211172,
+      "atr_30d": 7.455850191047658,
+      "macd_signal": "neutral",
+      "trend_score": 72
+    },
+    "APLS": {
+      "ticker": "APLS",
+      "price": 25.86,
+      "rsi": 55.822550831792974,
+      "atr": 7.986807591379195,
+      "atr_pct": 0.30884793470143834,
+      "momentum_3m": 0.11899610558199925,
+      "sma50": 23.1103,
+      "sma200": 21.915249999999993,
+      "volume": 3275000,
+      "atr_30d": 7.986807591379195,
+      "macd_signal": "neutral",
+      "trend_score": 66
+    },
+    "ADPT": {
+      "ticker": "ADPT",
+      "price": 15.91,
+      "rsi": 56.69515669515671,
+      "atr": 7.553435973524461,
+      "atr_pct": 0.47476027489154377,
+      "momentum_3m": 0.1172752808988764,
+      "sma50": 16.5016,
+      "sma200": 12.37869999999999,
+      "volume": 1060412,
+      "atr_30d": 7.553435973524461,
+      "macd_signal": "neutral",
+      "trend_score": 67
+    },
+    "AVDL": {
+      "ticker": "AVDL",
+      "price": 21.52,
+      "rsi": 65.9999999999999,
+      "atr": 4.023421860941728,
+      "atr_pct": 0.18696198238576803,
+      "momentum_3m": 0.44042838018741626,
+      "sma50": 20.801199999999998,
+      "sma200": 13.581875000000002,
+      "volume": 1062402,
+      "atr_30d": 4.023421860941728,
+      "macd_signal": "neutral",
+      "trend_score": 76
+    },
+    "AUPH": {
+      "ticker": "AUPH",
+      "price": 15.35,
+      "rsi": 38.88888888888885,
+      "atr": 4.608073669662774,
+      "atr_pct": 0.30020023906597876,
+      "momentum_3m": 0.36323268206039083,
+      "sma50": 15.010900000000003,
+      "sma200": 10.971199999999994,
+      "volume": 1674993,
+      "atr_30d": 4.608073669662774,
+      "macd_signal": "neutral",
+      "trend_score": 49
+    },
+    "ANIP": {
+      "ticker": "ANIP",
+      "price": 78.43,
+      "rsi": 41.15523465703974,
+      "atr": 5.6709571248527535,
+      "atr_pct": 0.07230596869632479,
+      "momentum_3m": -0.12004936609446859,
+      "sma50": 85.0028,
+      "sma200": 77.35485,
+      "volume": 631587,
+      "atr_30d": 5.6709571248527535,
+      "macd_signal": "neutral",
+      "trend_score": 51
+    },
+    "AVAH": {
+      "ticker": "AVAH",
+      "price": 8.08,
+      "rsi": 19.07894736842117,
+      "atr": 5.284074053134889,
+      "atr_pct": 0.6539695610315457,
+      "momentum_3m": -0.06697459584295617,
+      "sma50": 8.962599999999997,
+      "sma200": 6.774999999999999,
+      "volume": 2526966,
+      "atr_30d": 5.284074053134889,
+      "macd_signal": "neutral",
+      "trend_score": 29
+    },
+    "AGIO": {
+      "ticker": "AGIO",
+      "price": 27.18,
+      "rsi": 49.57426679280984,
+      "atr": 6.066145719566879,
+      "atr_pct": 0.22318416922615447,
+      "momentum_3m": -0.3193087903831705,
+      "sma50": 33.0435,
+      "sma200": 34.192725,
+      "volume": 947024,
+      "atr_30d": 6.066145719566879,
+      "macd_signal": "neutral",
+      "trend_score": 40
+    },
+    "AHCO": {
+      "ticker": "AHCO",
+      "price": 9.67,
+      "rsi": 32.367149758454104,
+      "atr": 4.794206871231282,
+      "atr_pct": 0.49578147582536525,
+      "momentum_3m": 0.02436440677966112,
+      "sma50": 9.686200000000003,
+      "sma200": 9.269175000000004,
+      "volume": 1062818,
+      "atr_30d": 4.794206871231282,
+      "macd_signal": "neutral",
+      "trend_score": 42
+    },
+    "ACHC": {
+      "ticker": "ACHC",
+      "price": 14.29,
+      "rsi": 50.216450216450205,
+      "atr": 7.464133502157319,
+      "atr_pct": 0.5223326453574051,
+      "momentum_3m": -0.4631855747558228,
+      "sma50": 16.957900000000002,
+      "sma200": 21.936200000000003,
+      "volume": 2065677,
+      "atr_30d": 7.464133502157319,
+      "macd_signal": "neutral",
+      "trend_score": 40
+    },
+    "ASTH": {
+      "ticker": "ASTH",
+      "price": 25.22,
+      "rsi": 66.54064272211721,
+      "atr": 6.668661478813114,
+      "atr_pct": 0.264419566963248,
+      "momentum_3m": -0.09182571119913574,
+      "sma50": 25.4245,
+      "sma200": 27.423825000000026,
+      "volume": 602937,
+      "atr_30d": 6.668661478813114,
+      "macd_signal": "neutral",
+      "trend_score": 57
+    },
+    "AMLX": {
+      "ticker": "AMLX",
+      "price": 11.42,
+      "rsi": 25.722543352601164,
+      "atr": 5.381992111991598,
+      "atr_pct": 0.4712777681253588,
+      "momentum_3m": -0.14070729872084264,
+      "sma50": 13.3348,
+      "sma200": 9.090675000000001,
+      "volume": 2124594,
+      "atr_30d": 5.381992111991598,
+      "macd_signal": "neutral",
+      "trend_score": 36
+    },
+    "ARDT": {
+      "ticker": "ARDT",
+      "price": 8.64,
+      "rsi": 44.827586206896584,
+      "atr": 3.6279275945376273,
+      "atr_pct": 0.41989902714555866,
+      "momentum_3m": -0.3449583017437452,
+      "sma50": 10.688000000000002,
+      "sma200": 12.522450000000001,
+      "volume": 389114,
+      "atr_30d": 3.6279275945376273,
+      "macd_signal": "neutral",
+      "trend_score": 35
+    },
+    "AMPH": {
+      "ticker": "AMPH",
+      "price": 26.46,
+      "rsi": 59.80230642504119,
+      "atr": 6.755214930560317,
+      "atr_pct": 0.25529912813908984,
+      "momentum_3m": -0.002262443438914019,
+      "sma50": 26.042999999999992,
+      "sma200": 25.606349999999985,
+      "volume": 405969,
+      "atr_30d": 6.755214930560317,
+      "macd_signal": "neutral",
+      "trend_score": 70
+    },
+    "ABUS": {
+      "ticker": "ABUS",
+      "price": 4.77,
+      "rsi": 51.76470588235292,
+      "atr": 4.726515005629645,
+      "atr_pct": 0.9908836489789613,
+      "momentum_3m": 0.062360801781736974,
+      "sma50": 4.539199999999999,
+      "sma200": 3.8186999999999984,
+      "volume": 1604635,
+      "atr_30d": 4.726515005629645,
+      "macd_signal": "neutral",
+      "trend_score": 62
+    },
+    "AVBP": {
+      "ticker": "AVBP",
+      "price": 20.8,
+      "rsi": 25.67204301075266,
+      "atr": 5.79179872145701,
+      "atr_pct": 0.2784518616085101,
+      "momentum_3m": 0.10462028677642077,
+      "sma50": 21.0713,
+      "sma200": 20.349349999999998,
+      "volume": 397449,
+      "atr_30d": 5.79179872145701,
+      "macd_signal": "neutral",
+      "trend_score": 36
+    },
+    "AMN": {
+      "ticker": "AMN",
+      "price": 15.12,
+      "rsi": 30.031948881789162,
+      "atr": 7.122176813396103,
+      "atr_pct": 0.47104344003942483,
+      "momentum_3m": -0.22659846547314588,
+      "sma50": 17.230999999999998,
+      "sma200": 19.566450000000003,
+      "volume": 803292,
+      "atr_30d": 7.122176813396103,
+      "macd_signal": "neutral",
+      "trend_score": 20
+    },
+    "AVNS": {
+      "ticker": "AVNS",
+      "price": 11.18,
+      "rsi": 30.344827586206875,
+      "atr": 6.199258545872141,
+      "atr_pct": 0.5544953976629822,
+      "momentum_3m": -0.013239187996469615,
+      "sma50": 11.464999999999998,
+      "sma200": 12.0109,
+      "volume": 509938,
+      "atr_30d": 6.199258545872141,
+      "macd_signal": "neutral",
+      "trend_score": 20
+    }
+  },
+  "news_reports": {
+    "AMD": [
+      {
+        "headline": "X pulse: - Posts on X show bullish momentum for AMD stock early 2026, citing gains of 2.9-5.2% leading semis amid AI compute rotation.\n- Mizuho analyst calls AMD undervalued post-78% 2025 surge, with $277 price target highlighted in discussions.\n- Multiple posts flag monthly Doji as rebound signal, predicting bounce from support targeting $150+.\n- Real-time quotes around $216 reflect positive trading sentiment into year-end.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/OpLowcountry/status/2007156353253470437",
+          "https://x.com/HARDWAREWHLS51/status/2006422282701516889",
+          "https://x.com/OpLowcountry/status/2007137917345411398",
+          "https://x.com/CorreWilfe80833/status/2007542170287518077",
+          "https://x.com/FJenle53500/status/2007385631962607840",
+          "https://x.com/HullDougla50537/status/2007490022514319742",
+          "https://x.com/byul_finance/status/2005727163723743726",
+          "https://x.com/torterfer21760/status/2007111398426550546",
+          "https://x.com/RenokarRev95354/status/2007438145802121552"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - **r/investing: \"Do you think AMD can still go up in 2026?\" (17 upvotes, Dec 30)**: Holder bought at $204 amid 2025 gains seeks reassurance; comments lean cautiously optimistic for long-term AI growth.\n- **r/stocks: \"2026 Stock Watchlist: My Picks, Your Thoughts?\" (19 upvotes, Jan 1)**: AMD featured in user's bullish picks for the year, community discusses AI catalysts positively.\n- **r/stocks: \"Reddit's 2026 Stock Picks\" (1.1K upvotes, Jan 1)**: Aggregated top picks from r/stocks, r/wsb, r/investing highlight AMD as a strong contender, reflecting broad enthusiasm.\n- **r/stocks: \"My Prediction for 2026 and beyond\" (upvotes N/A, Jan 1)**: Bullish sinusoidal model forecasts AMD upside driven by market cycles and semis demand.\n- **r/stocks: \"3 Stocks I'm Watching in 2026\" (upvotes N/A, Jan 2)**: Mentions AMD alongside AI leaders like MSFT; sentiment positive on enterprise AI shift.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/investing/comments/1pzju0w/do_you_think_amd_can_still_go_up_in_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.barchart.com/story/news/36817373/amd-stock-is-up-78-in-2025-what-to-expect-for-shares-in-2026-and-beyond",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://finance.yahoo.com/news/these-6-stocks-will-lead-the-1-trillion-chip-surge-in-2026-bofa-says-130008431.html",
+          "https://www.investing.com/analysis/amd-attracts-fresh-optimism-as-ai-products-set-up-a-new-growth-phase-200672631",
+          "https://www.reddit.com/r/stocks/comments/1q29rqb/3_stocks_im_watching_in_2026/"
+        ]
+      }
+    ],
+    "ADI": [
+      {
+        "headline": "X pulse: - Posts on X express bullish sentiment on $ADI due to approaching MACD crossover and RSI at 56, signaling potential upside above $1.25 amid rising on-chain activity.\n- Traders highlight steady price action between $1-$1.10 post-December launch, reflecting early buyer confidence and healthy growth.\n- Enthusiasm surrounds ADI Chain's 2025 milestones like mainnet launch, exchange listings, and Dirham stablecoin pilots, with optimism for 2026 scaling.\n- Multiple users predict $1.50+ targets tied to institutional partnerships and regulatory momentum.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/crypto_K254/status/2006719112152539572",
+          "https://x.com/ahmanikdu47/status/2006733179387068927",
+          "https://x.com/itzdezydank/status/2006287115286421602",
+          "https://x.com/KolapoMoney/status/2005906164844822849",
+          "https://x.com/ChainSera/status/2006627770705772598",
+          "https://x.com/SL_Stocks/status/2007321457907642665",
+          "https://x.com/GHOST0X9/status/2006811025358667853",
+          "https://x.com/cocoolowo/status/2006737818606063932",
+          "https://x.com/KolapoMoney/status/2006779932857467247",
+          "https://x.com/ghivu_87/status/2005834291398508803"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ADI stock in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes were found.\n- General stock discussions (e.g., r/stocks 2026 predictions, r/ValueInvesting top picks) exist but do not mention ADI specifically.\n- Related chatter on AMD in r/investing shows mixed long-term optimism, but not applicable to ADI.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://en.wikipedia.org/wiki/Reddit",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/investing/comments/1pzju0w/do_you_think_amd_can_still_go_up_in_2026/",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436",
+          "https://www.barchart.com/story/news/36862745/looking-for-the-big-ai-winners-of-2026-this-analyst-says-reddit-stock-should-top-your-list",
+          "https://finance.yahoo.com/news/looking-big-ai-winners-2026-171414172.html",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/"
+        ]
+      }
+    ],
+    "ALNY": [
+      {
+        "headline": "X pulse: - No influential posts (50+ favorites) about ALNY stock found on X in the specified date range, indicating low buzz.\n- Posts found on X about similar ticker $ALCY show strong bullish sentiment, with predictions of price surges from under $14 to the moon.\n- Discussion on #ALTNY (Altınay Savunma) includes technical analysis highlighting past rises and current dips around 14-15₺, mixed but strategic tone.\n- Overall sentiment inconclusive due to lack of high-engagement ALNY-specific content; unrelated emoji spam and ASCII art dilute relevance.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/alaaaayne/status/2007216182131339538",
+          "https://x.com/AlNix62601/status/2007541990595166670",
+          "https://x.com/JonkooTrades/status/2007173231900266747",
+          "https://x.com/AlNix62601/status/2007203031344132493",
+          "https://x.com/AliceSoulAI/status/2007402847235649648",
+          "https://x.com/JolTrades/status/2007139557968597071",
+          "https://x.com/Fon_Eko/status/2006690915126051296",
+          "https://x.com/borsa_caddesi/status/2007010984616251601",
+          "https://x.com/_AlmightyQuan55/status/2006888805425430895",
+          "https://x.com/borsa_caddesi/status/2007511621850271847"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts specifically about ALNY stock with 30+ upvotes found in the Dec 28, 2025–Jan 4, 2026 window; general 2026 stock pick threads (e.g., r/stocks \"Reddit's 2026 Stock Picks\" with 1.1K upvotes) do not mention it.\n- Limited discussion overall, suggesting neutral to low buzz around ALNY amid broader year-ahead predictions in r/stocks and r/ValueInvesting.\n- High-engagement threads like r/stocks \"2026 Stock Watchlist\" (19 upvotes, below threshold) focus on other tickers, implying ALNY not a top community pick.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/IndianStockMarket/comments/1q0ap3x/your_best_stock_pick_for_2026/",
+          "https://www.chartmill.com/stock/quote/ALNY/technical-analysis",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.marketbeat.com/instant-alerts/filing-alnylam-pharmaceuticals-inc-alny-shares-bought-by-cwm-llc-2025-12-29/"
+        ]
+      }
+    ],
+    "AHR": [
+      {
+        "headline": "X pulse: - No posts about $AHR stock with 50+ favorites found on X from Dec 28, 2025 to Jan 4, 2026, indicating low influential buzz.\n- Related $ACHR mentions express bullish sentiment, highlighting it as a strong 2026 opportunity with year-end close at $7.50 and average targets over $12.\n- $ACHR technical updates note range support around $7.50–$8.20, with buyers defending levels and potential upside expansion in 2026.\n- $AEHR posts position it as an AI QA bottleneck play, with short-term buy ideas below $22 and targets near $25, showing mildly optimistic trading interest.\n- Overall sentiment on similar tickers leans positive for growth, but $AHR lacks high-engagement discussion.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/AHR_tips/status/2006664747442471190",
+          "https://x.com/YOKi_SGN/status/2007092502277550201",
+          "https://x.com/virtuoz_67/status/2007377378943635683",
+          "https://x.com/realbasenews/status/2006803278252908815",
+          "https://x.com/alliseeis_W/status/2007600622833742087",
+          "https://x.com/YOKi_SGN/status/2005707850052780118",
+          "https://x.com/ArenaManCapital/status/2007054553276170708",
+          "https://x.com/CarpeNoctom/status/2006954705386401974",
+          "https://x.com/LeftyT75/status/2006813230417719590",
+          "https://x.com/arbindtiwariT/status/2005897326351770026"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AHR stock with 30+ upvotes found in r/ subreddits from 2025-12-28 to 2026-01-04.\n- Limited discussion overall; general stock threads (e.g., r/stocks watchlists) do not mention AHR.\n- Sentiment unavailable due to lack of qualifying posts meeting recency and engagement thresholds.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.mitrade.com/insights/share/share-trading/best-us-stocks",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1pznajl/bought_intc_on_dec_29_2025_at_36495_thoughts_on/",
+          "https://www.investing.com/analysis/reddit-buy-alert-could-it-really-have-40-upside-potential-200672575",
+          "https://www.google.com/finance/quote/RDDT:NYSE?hl=en",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://finance.yahoo.com/news/looking-big-ai-winners-2026-171414172.html"
+        ]
+      }
+    ],
+    "ACAD": [
+      {
+        "headline": "X pulse: - No posts about ACAD stock with 50+ favorites were found on X between 2025-12-28 and 2026-01-04, indicating minimal influential discussion.\n- Search results showed unrelated crypto and stock mentions (e.g., AAVE, ADA, AVAX) but nothing matching ACAD criteria.\n- Lack of high-engagement content suggests neutral or low-visibility sentiment for ACAD during this holiday-shortened period.\n- Overall, no bullish or bearish trends evident from influential X posts on the ticker.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/ShortTermStock1/status/2006616473968705782",
+          "https://x.com/AlumniDeFi/status/2005866771027218679",
+          "https://x.com/BigBlueNation85/status/2006920793792385407",
+          "https://x.com/CollinsChadM/status/2006481637387939854",
+          "https://x.com/N1000_inv/status/2007130397940093097",
+          "https://x.com/musabhassan8999/status/2007143395471524061",
+          "https://x.com/Sghdegf/status/2006093887719518395",
+          "https://x.com/crypto_fury/status/2007558080876179652",
+          "https://x.com/Ryan02020419/status/2006308384333553895"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ACAD stock with ≥30 upvotes found from 2025-12-28 to 2026-01-04.\n- General r/stocks discussions on 2026 predictions and top picks (e.g., ASTS) show bullish market sentiment but no ACAD mentions.",
+        "impact": "pending",
+        "citations": [
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.mitrade.com/insights/share/share-trading/best-us-stocks",
+          "https://www.reddit.com/r/stocks/comments/1q0x0oc/2025_returns_by_asset_class/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://en.wikipedia.org/wiki/Reddit",
+          "https://www.reddit.com/r/stocks/comments/1q27ae7/2026_kicked_off_with_a_bang_asts_is_leading_the/"
+        ]
+      }
+    ],
+    "ALHC": [
+      {
+        "headline": "X pulse: - Posts found on X report heavy insider selling for $ALHC (nearly 1M shares worth $18M+), signaling bearish sentiment from smart money.\n- Technical analysis posts note $ALHC's strong upward move off key levels and through EMAs, indicating short-term bullish momentum.\n- A pending short order on $ALCH (similar ticker) highlights downtrend continuation, adding cautious/bearish technical views.\n- Overall sentiment mixed but leans negative due to insider activity emphasis; no posts reached 50+ favorites in the period.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/ScalpingX/status/2007415455905132582",
+          "https://x.com/HacheurC/status/2007005494515474821",
+          "https://x.com/TradeAlertsUS/status/2006123860031091044",
+          "https://x.com/wiz_trades_/status/2006380210774831152",
+          "https://x.com/AliceSoulAI/status/2007282080959340970",
+          "https://x.com/builders_t40003/status/2007165201226027165",
+          "https://x.com/TradeAlertsUS/status/2006123779768852530",
+          "https://x.com/_AlmightyQuan55/status/2006888805425430895",
+          "https://x.com/FibsDontFib/status/2007601704687350024"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ALHC stock with ~30+ upvotes found in r/ subreddits from 2025-12-28 to 2026-01-04.\n- General r/stocks discussions on 2026 predictions and watchlists (e.g., r/stocks threads with 1K+ upvotes) do not mention ALHC.\n- High-engagement posts focus on broader markets, RDDT, Bitcoin, or generic stock picks, lacking ALHC sentiment.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://stockanalysis.com/stocks/rddt/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/Bitcoin/comments/1pz9os4/what_to_expect_about_btc_in_big_2026/",
+          "https://marketchameleon.com/Reports/PremarketTrading",
+          "https://www.reddit.com/r/Bitcoin/comments/1pznaz4/poll_what_are_your_predictions_for_bitcoin_in/",
+          "https://www.reddit.com/r/investing/comments/1q18tfm/which_of_these_stocks_are_expected_to_have/"
+        ]
+      }
+    ],
+    "AMRX": [
+      {
+        "headline": "X pulse: - No influential posts (min_faves:50) about $AMRX were found between 2025-12-28 and 2026-01-04, indicating minimal high-engagement discussion.\n- Absence of popular bullish or bearish takes suggests neutral sentiment from top X influencers during this period.\n- Low overall visibility for $AMRX amid unrelated ticker chatter, pointing to limited trader interest.\n- Posts found on X for similar tickers like $AMR show some bullish chart analysis, but nothing substantive for $AMRX.\n- Overall, inconclusive sentiment due to lack of qualifying influential content.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/AR4true/status/2007132106703384814",
+          "https://x.com/precisetradesX/status/2007104258617815185",
+          "https://x.com/TheMarketCrux/status/2006191732325744858",
+          "https://x.com/AHR_tips/status/2006664747442471190",
+          "https://x.com/ArenaManCapital/status/2007054553276170708",
+          "https://x.com/forcewalke81743/status/2007427010268635144",
+          "https://x.com/intratio/status/2006002741198409791",
+          "https://x.com/marifdev/status/2007093280279044476",
+          "https://x.com/LeftyT75/status/2006813230417719590",
+          "https://x.com/pradeeepk/status/2006568104210608190"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AMRX stock found in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes.\n- General stock discussions (e.g., r/stocks predictions for 2026) dominate, but AMRX receives no notable mentions.\n- High-engagement threads focus on picks like MSFT, AVGO, AMD; AMRX absent from watchlists or forecasts.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/investing/comments/1pzju0w/do_you_think_amd_can_still_go_up_in_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q0v20i/jp_morgans_top_stock_picks_for_2026_what_do_you/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q0jh90/what_stocks_still_have_potential_and_havent/",
+          "https://www.reddit.com/r/stocks/comments/1q29rqb/3_stocks_im_watching_in_2026/",
+          "https://www.reddit.com/r/IndianStockMarket/comments/1q0ap3x/your_best_stock_pick_for_2026/"
+        ]
+      }
+    ],
+    "APLS": [
+      {
+        "headline": "X pulse: - No influential posts (50+ favorites) about $APLS stock found between 2025-12-28 and 2026-01-04, indicating limited high-engagement discussion.\n- Lower-engagement posts found on X show mildly positive sentiment, with one trader noting a profitable long position and gains tied to Empaveli launch metrics.\n- Overall buzz appears low, overshadowed by chatter on similar tickers like $APLD and $AAPL with more varied bullish predictions.\n- Sentiment leans neutral to positive based on sparse mentions, lacking strong influencer conviction or viral traction.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/jfais20/status/2007269144702660905",
+          "https://x.com/YsexPsnm/status/2005578837166576074",
+          "https://x.com/MycallsTrading/status/2006635789896282277",
+          "https://x.com/Ron284Ron/status/2006468417822638541",
+          "https://x.com/MycallsTrading/status/2006578777338548492",
+          "https://x.com/StockOptionCole/status/2006899911414206879",
+          "https://x.com/aprs__/status/2007296825229980102",
+          "https://x.com/sope_clouds/status/2005645117554860110",
+          "https://x.com/A_Najumi/status/2007573355818287519",
+          "https://x.com/AliceSoulAI/status/2007402847235649648"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about APLS stock in r/ subreddits found with ≥30 upvotes from 2025-12-28 to 2026-01-04; limited discussion overall.\n- General r/stocks threads on 2026 predictions and watchlists (e.g., \"My Prediction for 2026,\" 1K+ upvotes) do not mention APLS, showing neutral absence in bullish picks.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://stockanalysis.com/stocks/apld/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1pzvn46/asts_up_big_today_heres_why_and_why_its_still/",
+          "https://www.reddit.com/",
+          "https://www.reddit.com/r/investing/comments/1pxf0sf/2026_portfolio_projections/",
+          "https://www.reddit.com/r/stocks/comments/1q0jh90/what_stocks_still_have_potential_and_havent/"
+        ]
+      }
+    ],
+    "ADPT": [
+      {
+        "headline": "X pulse: - No posts with 50+ favorites about $ADPT stock were found on X from 2025-12-28 to 2026-01-04, indicating low influential discussion.\n- Sparse mentions of similar tickers like $ADAP appeared, but none met the popularity threshold or directly referenced ADPT.\n- Overall sentiment cannot be gauged due to absence of high-engagement posts on the specific ticker.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/Rahul04980546/status/2006807064841196027",
+          "https://x.com/Rahul04980546/status/2007015153599197299",
+          "https://x.com/Rahul04980546/status/2007359504351215708",
+          "https://x.com/musabhassan8999/status/2007143395471524061",
+          "https://x.com/JeffTheOmega1/status/2006605042573537427",
+          "https://x.com/JeffTheOmega1/status/2006622072928350548",
+          "https://x.com/abovethecharts/status/2006791312834507129",
+          "https://x.com/JeffTheOmega1/status/2007145457013928120",
+          "https://x.com/JeffTheOmega1/status/2006742335972069472"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ADPT stock with 30+ upvotes found in r/stocks or similar subs from 2025-12-28 to 2026-01-04.\n- General r/stocks discussions on 2026 predictions and watchlists (e.g., JP Morgan picks) show bullish market sentiment but no ADPT mentions.\n- One external forecast source notes ADPT price target at $17.11, but lacks Reddit engagement in timeframe.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.marketbeat.com/stocks/NASDAQ/ADPT/forecast/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/stocks/comments/1q0v20i/jp_morgans_top_stock_picks_for_2026_what_do_you/",
+          "https://www.reddit.com/r/stocks/comments/1q27ae7/2026_kicked_off_with_a_bang_asts_is_leading_the/",
+          "https://www.reddit.com/r/stocks/comments/1q0x0oc/2025_returns_by_asset_class/",
+          "https://www.google.com/finance/quote/RDDT:NYSE?hl=en"
+        ]
+      }
+    ],
+    "AVDL": [
+      {
+        "headline": "X pulse: - **No high-engagement posts found**: Zero posts about $AVDL stock with 50+ favorites appeared in the queried date range (2025-12-28 to 2026-01-04), indicating low visibility among influential X users.\n- **Muted overall sentiment**: Absence of popular discussions suggests neutral or negligible buzz, with no bullish or bearish narratives gaining traction.\n- **Limited chatter on similar tickers**: Some lower-engagement posts on AV-related symbols (e.g., $AVAV, $AVAX) showed mild positivity, but nothing directly tied to $AVDL at the required influence level.\n- **Potential for under-the-radar interest**: Lack of min_faves:50 content implies $AVDL flew under the radar, possibly awaiting catalysts for broader attention.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/luxurycharts/status/2007538628977930676",
+          "https://x.com/BigBlueNation85/status/2006920793792385407",
+          "https://x.com/DavePSlayerr/status/2006203338526752795",
+          "https://x.com/sumofchaos/status/2007120836780802251",
+          "https://x.com/Ryan02020419/status/2006308384333553895",
+          "https://x.com/CollinsChadM/status/2006481637387939854",
+          "https://x.com/risenfit/status/2006048116538237415",
+          "https://x.com/signalsScalp/status/2006675203297055095",
+          "https://x.com/Fundamental360/status/2006281741334454486",
+          "https://x.com/Fundamental360/status/2006281939062517807"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AVDL stock found in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes.\n- General stock discussions (e.g., r/stocks predictions for 2026) dominate recent high-engagement threads, but none mention AVDL.\n- Similar tickers like AVGO appear in wsb threads (e.g., opportunity vs. trap debate), but not AVDL.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/investing/comments/1pyshgv/how_do_you_guys_see_the_overall_trend_for_ai_tech/",
+          "https://stocktwits.com/symbol/DVLT",
+          "https://www.reddit.com/r/wallstreetbets/comments/1pyxvlx/is_avgo_a_trap_or_a_straight_up_opportunity_right/",
+          "https://www.reddit.com/r/stocks/comments/1q0x0oc/2025_returns_by_asset_class/"
+        ]
+      }
+    ],
+    "AUPH": [
+      {
+        "headline": "X pulse: - No influential posts (min_faves:50) about $AUPH stock were found on X from 2025-12-28 to 2026-01-04, indicating low visibility or discussion.\n- Absence of high-engagement content suggests neutral to negligible sentiment among influential users during this period.\n- Related crypto/stock chatter focused on other tickers like $AAVE and $AVAX, but $AUPH received zero mentions meeting the criteria.\n- Overall, lack of buzz implies limited hype or controversy around $AUPH in the queried timeframe.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/Ryan02020419/status/2006308384333553895",
+          "https://x.com/AlumniDeFi/status/2005866771027218679",
+          "https://x.com/_ballance/status/2007540074922295407",
+          "https://x.com/wjwnp/status/2006616576020328454",
+          "https://x.com/FFC03Josh/status/2006309275191201978",
+          "https://x.com/A50lD/status/2007178374285013159",
+          "https://x.com/My_CryptoNews/status/2006319879968666085",
+          "https://x.com/AAPBfanatic/status/2006233326219321400",
+          "https://x.com/ohhsehunnp/status/2005529658784391512",
+          "https://x.com/786mwiky/status/2006833309595349233"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AUPH with ≥30 upvotes found from 2025-12-28 to 2026-01-04.\n- Search covered major subs like r/stocks, r/ValueInvesting, r/wallstreetbets; sentiment unavailable due to lack of qualifying discussions.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1pznajl/bought_intc_on_dec_29_2025_at_36495_thoughts_on/",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436",
+          "https://www.reddit.com/r/stocks/hot/",
+          "https://finance.yahoo.com/news/looking-big-ai-winners-2026-171414172.html",
+          "https://www.reddit.com/r/stocks/new/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q0opn7/which_stock_from_your_watchlist_that_you_would/",
+          "https://finbold.com/wallstreetbets-top-10-stock-picks-for-2026/",
+          "https://www.reddit.com/"
+        ]
+      }
+    ],
+    "ANIP": [
+      {
+        "headline": "X pulse: - No posts meeting the min_faves:50 threshold were found on X discussing ANIP stock from 2025-12-28 to 2026-01-04, indicating minimal influential buzz.\n- Lack of high-engagement content suggests neutral to low public sentiment around ANIP stock on the platform.\n- Sparse mentions in low-fave posts (e.g., crypto-related $anipap hype) show no clear stock-specific enthusiasm or bearish views.\n- Overall, X sentiment appears absent or subdued, with no viral positivity or negativity on ANIP.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/Sghdegf/status/2006673539378860359",
+          "https://x.com/embahjsx/status/2006914191341613286",
+          "https://x.com/Anilmedavarapu5/status/2006436705197502607",
+          "https://x.com/Anilmedavarapu5/status/2006435775878136025",
+          "https://x.com/aninsa/status/2007115769260519465",
+          "https://x.com/786mwiky/status/2006833309595349233",
+          "https://x.com/ZeeBusiness/status/2005877167440421310",
+          "https://x.com/sensexbaba/status/2006969790762725781"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ANIP stock with ~30+ upvotes found in r/ subreddits from 2025-12-28 to 2026-01-04; general stock prediction threads (e.g., r/stocks, r/ValueInvesting) dominate but lack ANIP mentions.\n- Sentiment unavailable due to lack of qualifying posts; broader market discussions focus on AI/tech stocks and 2026 predictions without referencing ANIP.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q0h6he/what_are_your_stockmarket_predictions_for_the_for/",
+          "https://ca.finance.yahoo.com/quote/ANIP/",
+          "https://finance.yahoo.com/quote/GALT/",
+          "https://www.reddit.com/r/investing/comments/1pyshgv/how_do_you_guys_see_the_overall_trend_for_ai_tech/",
+          "https://www.google.com/finance/quote/RDDT:NYSE?hl=en",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436"
+        ]
+      }
+    ],
+    "AVAH": [
+      {
+        "headline": "X pulse: - No influential posts (min_faves:50) about $AVAH stock found on X from Dec 28, 2025 to Jan 4, 2026, indicating limited discussion or buzz among high-engagement users.\n- Sparse mentions of similar tickers like $AVAV show mildly bullish technical sentiment, citing support levels and potential upside, but none meet the influence threshold for AVAH.\n- Overall sentiment inconclusive due to lack of qualifying posts; AVAH appears under the radar with no viral or favored analyses in the queried timeframe.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/luxurycharts/status/2007538628977930676",
+          "https://x.com/BigBlueNation85/status/2006920793792385407",
+          "https://x.com/sumofchaos/status/2007120836780802251",
+          "https://x.com/AlumniDeFi/status/2005866771027218679",
+          "https://x.com/Ryan02020419/status/2006308384333553895",
+          "https://x.com/robkashh_/status/2006534622029693353",
+          "https://x.com/FFC03Josh/status/2006309275191201978",
+          "https://x.com/My_CryptoNews/status/2006319879968666085",
+          "https://x.com/perpx_aiagent/status/2007426403562672214",
+          "https://x.com/nehalzzzz1/status/2005931301040447972"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts in r/ subreddits matching the criteria (2025-12-28 to 2026-01-04, ~30+ upvotes) discuss AVAH stock.\n- Recent AVAH mentions appear limited to non-Reddit sources, like insider selling news (e.g., CCO Cunningham sold $292k on 2026-01-03), with no high-engagement Reddit sentiment available.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/wallstreetbets/comments/1pyxvlx/is_avgo_a_trap_or_a_straight_up_opportunity_right/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://stockinvest.us/stock/AVAV",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q191ss/what_stock_will_run_in_2026/",
+          "https://www.investing.com/news/insider-trading-news/aveanna-healthcare-cco-cunningham-sells-292k-in-avah-stock-93CH-4428452",
+          "https://markets.financialcontent.com/stocks/article/marketminute-2025-12-29-the-front-page-of-the-ai-internet-why-wall-street-is-betting-big-on-reddit-for-2026"
+        ]
+      }
+    ],
+    "AGIO": [
+      {
+        "headline": "X pulse: - No influential posts (50+ likes) found on $AGIO stock from Dec 28, 2025, to Jan 4, 2026, indicating low public engagement or buzz.\n- Low-engagement posts on X highlight recent insider sales (e.g., 5 transactions totaling ~30k shares for $824k), viewed negatively amid 15.56% yearly decline.\n- Overall sentiment from available posts leans bearish due to insider selling alerts, but lacks high-influence amplification.\n- Absence of bullish or promotional content with significant favorites suggests neutral to cautious market sentiment on the ticker.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/TradeAlertsUS/status/2007260730672681321",
+          "https://x.com/TradeAlertsUS/status/2007260699509117310",
+          "https://x.com/pukht00n/status/2006754330159050970",
+          "https://x.com/100x__Investing/status/2006394243254771821",
+          "https://x.com/experiences1101/status/2007112325837496800",
+          "https://x.com/dannycheng2022/status/2005954154368540752",
+          "https://x.com/theblacklinehq/status/2007102550043205948",
+          "https://x.com/kilianayala/status/2006710813143478694",
+          "https://x.com/fredyyudiawan/status/2006855467142963546",
+          "https://x.com/USStockSniper/status/2005672451045519477"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AGIO stock found in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes; overall sentiment unavailable due to lack of engagement.\n- A related non-Reddit news item notes Agios Pharmaceuticals CEO selling $506k in stock on 2026-01-03, potentially bearish but not discussed on Reddit.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/investingforbeginners/comments/1q275li/whats_your_investment_strategy_for_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q0v20i/jp_morgans_top_stock_picks_for_2026_what_do_you/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/IndianStockMarket/comments/1q0ap3x/your_best_stock_pick_for_2026/",
+          "https://ng.investing.com/news/insider-trading-news/agios-pharmaceuticals-ceo-goff-sells-506663-in-stock-93CH-2272564",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/"
+        ]
+      }
+    ],
+    "AHCO": [
+      {
+        "headline": "X pulse: - No posts with 50+ favorites specifically discussing AHCO stock were found in the queried period, indicating low influential buzz.\n- Search results showed unrelated stock mentions (e.g., HUDCO with positive disbursement updates) but nothing on AHCO.\n- Overall sentiment inconclusive due to absence of high-engagement content on AHCO.\n- Sparse activity suggests neutral to negligible public interest on X for AHCO during late 2025.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/A50lD/status/2007476393601306800",
+          "https://x.com/AliceSoulAI/status/2007282080959340970",
+          "https://x.com/A50lD/status/2007182471297995233",
+          "https://x.com/AnushamTV/status/2006590206166839679",
+          "https://x.com/BigBlueNation85/status/2006920793792385407",
+          "https://x.com/A50lD/status/2006847050613391409",
+          "https://x.com/saliya_dhruvil/status/2006548960476016943",
+          "https://x.com/ShortTermStock1/status/2006616473968705782",
+          "https://x.com/AliceSoulAI/status/2007040481490784718",
+          "https://x.com/AKSM875/status/2007184488212902255"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about AHCO stock with 30+ upvotes found in r/ subreddits from 2025-12-28 to 2026-01-04.\n- General stock discussions in r/stocks focus on 2026 predictions and watchlists (e.g., AI tech, MAG7), but AHCO is absent.\n- High-engagement threads emphasize broad market picks like AVGO or BTC, with neutral-to-bullish sentiment on tech/AI, no AHCO mentions.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q0v20i/jp_morgans_top_stock_picks_for_2026_what_do_you/",
+          "https://www.reddit.com/r/Bitcoin/comments/1pz9os4/what_to_expect_about_btc_in_big_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q0jh90/what_stocks_still_have_potential_and_havent/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/",
+          "https://www.reddit.com/r/investing/comments/1pyshgv/how_do_you_guys_see_the_overall_trend_for_ai_tech/"
+        ]
+      }
+    ],
+    "ACHC": [
+      {
+        "headline": "X pulse: - No influential posts (50+ faves) directly about $ACHC found on X in the date range, indicating low buzz.\n- One high-engagement post (65+ faves) shows raw excitement but no specific $ACHC details.\n- Posts on similar ticker $ACHR highlight volatility signals and range compression around $7.50–$8.20, with buyers defending levels.\n- $ACHR sentiment leans bullish, with 2026 forecasts targeting $12+ from $7.50 year-end close for risk-tolerant investors.\n- Overall X sentiment inconclusive for $ACHC due to lack of qualifying posts; related tickers cautiously optimistic.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/dannycheng2022/status/2007029626376532126",
+          "https://x.com/acphotons/status/2005604883853168902",
+          "https://x.com/alliseeis_W/status/2007600622833742087",
+          "https://x.com/realbasenews/status/2006803278252908815",
+          "https://x.com/BioWino/status/2006035978511667408",
+          "https://x.com/ShortTermStock1/status/2006616473968705782",
+          "https://x.com/AnunTrades/status/2005698579395133944",
+          "https://x.com/BigBlueNation85/status/2006920793792385407",
+          "https://x.com/SanadAlEzz/status/2006022880505610639"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ACHC stock in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes were found.\n- Search yielded discussions on similar tickers like ACHR (Archer Aviation) in r/ValueInvesting, but not ACHC.\n- General 2026 stock prediction threads in r/stocks exist with high engagement, but none specifically mention ACHC.\n- Sentiment data unavailable due to lack of qualifying posts.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/ValueInvesting/comments/1pzkz57/archer_aviation/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q0ltrm/feeling_pretty_good_about_my_portfolio_going_into/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q0h6he/what_are_your_stockmarket_predictions_for_the_for/",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436",
+          "https://www.investing.com/analysis/reddit-buy-alert-could-it-really-have-40-upside-potential-200672575"
+        ]
+      }
+    ],
+    "ASTH": [
+      {
+        "headline": "X pulse: - No influential posts (min 50+ favorites) found on X for $ASTH stock from 2025-12-28 to 2026-01-04, indicating minimal discussion.\n- Absence of high-engagement content suggests low retail investor buzz or hype around the ticker during this period.\n- Overall sentiment cannot be reliably summarized due to lack of qualifying posts; potentially neutral or overlooked.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/traderMichael_1/status/2006362085341728900",
+          "https://x.com/tempocap2/status/2006920031016464790",
+          "https://x.com/arfalive0/status/2005585895685300368",
+          "https://x.com/EchoAnalysis/status/2007459434671570996",
+          "https://x.com/KUEHCK1/status/2006675282867159066",
+          "https://x.com/volatile_world/status/2007125967396094289",
+          "https://x.com/Defiantclient2/status/2007377046788550848",
+          "https://x.com/volatile_world/status/2005645291593273799",
+          "https://x.com/GlenMarks165499/status/2006074675856867364",
+          "https://x.com/KUEHCK1/status/2007243311531339934"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ASTH stock with 30+ upvotes found in r/stocks, r/investing, or similar subs from 2025-12-28 to 2026-01-04.\n- Sentiment unavailable due to lack of qualifying discussions; ASTH appears under the radar compared to hotter tickers like ASTS.\n- General stock threads (e.g., 2026 predictions) mention other names but not ASTH.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1pzvn46/asts_up_big_today_heres_why_and_why_its_still/",
+          "https://www.reddit.com/r/stocks/comments/1q27ae7/2026_kicked_off_with_a_bang_asts_is_leading_the/",
+          "https://www.reddit.com/r/investing/comments/1pyo6mt/is_asts_worth_getting_into_right_now/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.google.com/finance/quote/RDDT:NYSE?hl=en",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/"
+        ]
+      }
+    ],
+    "AMLX": [
+      {
+        "headline": "X pulse: - No influential posts (50+ favorites) found on $AMLX stock during the specified period, indicating low buzz among high-engagement users on X.\n- Sparse mentions on X highlight covered call strategies with potential high returns (up to 44%), suggesting mild bullish interest from options traders.\n- Several low-engagement posts confuse $AMLX with $AMIX, a penny stock seeing volatile trading alerts and short-term pumps.\n- Overall sentiment from available X posts is neutral to slightly positive on trading opportunities, but lacks broad influential support.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/QuantchaIdeas/status/2007125115281326323",
+          "https://x.com/SanadAlEzz/status/2005997558762733945",
+          "https://x.com/tozzer121/status/2007015474543095871",
+          "https://x.com/Mini_Tradez/status/2006005977288696188",
+          "https://x.com/forcewalke81743/status/2007427010268635144",
+          "https://x.com/AnunTrades/status/2006010624686313673",
+          "https://x.com/Markadiusz45/status/2007102234069504365",
+          "https://x.com/StockTickerZone/status/2006819699267412201",
+          "https://x.com/a_mii65/status/2007537540841238829",
+          "https://x.com/James_Foresight/status/2006000373312676115"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts specifically about AMLX stock in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes were found.\n- General r/stocks discussions focused on 2026 predictions, watchlists (e.g., MSFT), and portfolios, showing neutral to bullish market sentiment but no AMLX mentions.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.investing.com/analysis/reddit-buy-alert-could-it-really-have-40-upside-potential-200672575",
+          "https://markets.financialcontent.com/stocks/",
+          "https://www.reddit.com/r/stocks/comments/1q0ltrm/feeling_pretty_good_about_my_portfolio_going_into/",
+          "https://www.reddit.com/r/stocks/comments/1q29rqb/3_stocks_im_watching_in_2026/"
+        ]
+      }
+    ],
+    "ARDT": [
+      {
+        "headline": "X pulse: - No posts about $ARDT stock reached 50+ favorites in the queried period, indicating minimal influential discussion on X.\n- Sparse mentions of similar tickers like $AARD and $ARDR showed mixed trading signals, but none directly addressed ARDT with high engagement.\n- Overall sentiment appears neutral to absent for ARDT, with no bullish or bearish hype from influential accounts.\n- Posts on related crypto/assets (e.g., ARDR, AR) focused on short-term trades, but lacked ARDT-specific volume or favorites.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/6F_Trading/status/2006883894352654575",
+          "https://x.com/barusa1003/status/2006383786314072101",
+          "https://x.com/AndrewGriUK/status/2006643047497642356",
+          "https://x.com/AndrewGriUK/status/2006804481414152198",
+          "https://x.com/TIGER0568888/status/2006276556511973458",
+          "https://x.com/wnometa/status/2007462660397203877",
+          "https://x.com/Finora_EN/status/2007570197641867340",
+          "https://x.com/AHR_tips/status/2006664747442471190",
+          "https://x.com/artisanwill12/status/2007150505781538973",
+          "https://x.com/AndrewGriUK/status/2007214498718052482"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No recent Reddit posts (2025-12-28 to 2026-01-04) about ARDT stock with ~30+ upvotes found in relevant subreddits.\n- Search yielded discussions on other tickers like RDDT and general 2026 picks (e.g., r/IndianStockMarket, r/ValueInvesting), but none on ARDT.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/IndianStockMarket/comments/1q0ap3x/your_best_stock_pick_for_2026/",
+          "https://stockanalysis.com/stocks/rddt/",
+          "https://coincodex.com/stock/RDDT/price-prediction/",
+          "https://finance.yahoo.com/news/reddit-inc-rddt-falls-more-225006643.html",
+          "https://www.reddit.com/r/stocks/new/",
+          "https://www.google.com/finance/quote/RDDT:NYSE?hl=en",
+          "https://www.reddit.com/r/stocks/comments/1q0x0oc/2025_returns_by_asset_class/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/"
+        ]
+      }
+    ],
+    "AMPH": [
+      {
+        "headline": "X pulse: - Posts found on X indicate a long signal for $APH triggered late December, backed by a 68% win rate in backtests over 4-week holds.\n- Bullish chart commentary notes $APH absorbing supply, invalidating a potential triple top, and reclaiming short-term structure.\n- Traders highlight $APH establishing support at 10-week/50-day SMA, forming a flat base or shallow double-bottom.\n- One analysis describes a neutral short-term trend for $APH with slight weakening of the basic bullish momentum.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/sentimentrader/status/2006364724741505039",
+          "https://x.com/MLionetIQs/status/2007579639066308759",
+          "https://x.com/clean_hodl/status/2006516531220340984",
+          "https://x.com/forcewalke81743/status/2007427010268635144",
+          "https://x.com/TMI_Traders/status/2005618467144425824",
+          "https://x.com/Londinia_IA/status/2006031384213639268",
+          "https://x.com/BalistrariaFund/status/2006523388244717781",
+          "https://x.com/mindfulInvestSE/status/2006074492431614025",
+          "https://x.com/fundmyfund/status/2007113318696382793",
+          "https://x.com/perpx_aiagent/status/2006550619339829708"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about $AMPH stock in specified date range (2025-12-28 to 2026-01-04) met the ~30+ upvotes threshold; discussion appears limited.\n- Closest match: r/ValueInvesting post on AMPX (similar ticker, not AMPH) \"Thoughts on AMPX after this pullback?\" (11 upvotes, 32 comments, 2025-12-29) shows mixed curiosity post-pullback, with users noting unique tech but valuation concerns—neutral to cautious sentiment.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q29rqb/3_stocks_im_watching_in_2026/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1py9b25/thoughts_on_ampx_after_this_pullback/",
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/investing/comments/1pzju0w/do_you_think_amd_can_still_go_up_in_2026/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q191ss/what_stock_will_run_in_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/"
+        ]
+      }
+    ],
+    "ABUS": [
+      {
+        "headline": "X pulse: - Posts on X highlight technical patterns like rectangle continuations and volume spikes for $ABUS, suggesting potential upside breakouts above $5.\n- Heavy portfolio allocations to $ABUS noted by users, with some filling NISA accounts entirely in the stock, showing strong personal conviction.\n- Bullish outlooks predict stock surges past $10 on favorable summary judgments around Jan 9 or 16, though with expected volatility afterward.\n- Overall sentiment leans positive among discussing users, focused on charts, legal catalysts, and breakout potential despite low engagement.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/s0ulBr0ther/status/2007100871310483505",
+          "https://x.com/ConfuciusTrades/status/2006448503107793086",
+          "https://x.com/786mwiky/status/2006833309595349233",
+          "https://x.com/Warren_Bife/status/2007143310222360795",
+          "https://x.com/latache2021/status/2007363561614651824",
+          "https://x.com/Ryan02020419/status/2006308384333553895",
+          "https://x.com/latache2021/status/2007366003332899228",
+          "https://x.com/AbbyasCortez/status/2007197059171135882",
+          "https://x.com/Abybysss/status/2007521604264251550",
+          "https://x.com/AbstruseAlan/status/2006706082337665413"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts about ABUS stock with 30+ upvotes found between 2025-12-28 and 2026-01-04; sentiment data unavailable due to lack of qualifying discussions.\n- General r/stocks threads on 2026 predictions and watchlists (e.g., top picks from r/stocks, r/wsb) show bullish market sentiment but no mentions of ABUS.\n- High-engagement post in r/stocks (\"Reddit's 2026 Stock Picks,\" 1.1K upvotes) lists popular stocks like Alphabet but excludes ABUS, indicating neutral to low visibility.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.investing.com/analysis/reddit-buy-alert-could-it-really-have-40-upside-potential-200672575",
+          "https://www.reddit.com/r/IndianStockMarket/comments/1q0ap3x/your_best_stock_pick_for_2026/",
+          "https://www.reddit.com/r/pennystocks/comments/1q0gb60/inbs_positive_news/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q191ss/what_stock_will_run_in_2026/"
+        ]
+      }
+    ],
+    "AVBP": [
+      {
+        "headline": "X pulse: - No influential posts (50+ favorites) about $AVBP stock were found on X from 2025-12-28 to 2026-01-04, indicating limited high-engagement discussion.\n- Sparse mentions in low-fave posts on X suggest mildly positive hype, linking $AVBP to futuristic or exciting developments.\n- Absence of high-favorite content implies neutral to low visibility sentiment among influential X users during the period.\n- Related aviation/defense tickers like $AVAV showed bullish technical analysis in some posts found on X, but not directly tied to $AVBP.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/luxurycharts/status/2007538628977930676",
+          "https://x.com/786mwiky/status/2006833309595349233",
+          "https://x.com/BigBlueNation85/status/2006920793792385407",
+          "https://x.com/risenfit/status/2006048116538237415",
+          "https://x.com/DudeBiotech/status/2007207486592545184",
+          "https://x.com/sensexbaba/status/2006969790762725781",
+          "https://x.com/Warren_Bife/status/2007143310222360795",
+          "https://x.com/Ryan02020419/status/2006308384333553895",
+          "https://x.com/Venu_7_/status/2006056289634508939",
+          "https://x.com/pnani456/status/2006050136015659308"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts matching the criteria (AVBP stock discussions in r/ subreddits from 2025-12-28 to 2026-01-04 with ~30+ upvotes) were found, indicating low visibility or engagement.\n- General 2026 stock watchlists and predictions in r/stocks and r/wallstreetbets (e.g., AVGO mentions) show bullish semiconductor sentiment but no AVBP references.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q14hbk/reddits_2026_stock_picks/",
+          "https://www.reddit.com/r/stocks/comments/1q0jh90/what_stocks_still_have_potential_and_havent/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/wallstreetbets/comments/1pyxvlx/is_avgo_a_trap_or_a_straight_up_opportunity_right/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/",
+          "https://www.mitrade.com/insights/share/share-trading/best-us-stocks"
+        ]
+      }
+    ],
+    "AMN": [
+      {
+        "headline": "X pulse: - No influential posts (50+ favorites) about $AMN stock were found on X during 2025-12-28 to 2026-01-04, indicating low buzz.\n- Posts found on X include mild bullish commentary linking $AMN to strong investment potential in nurse staffing, but with minimal engagement.\n- Emotional posts with crying emojis from users possibly tied to $AMN suggest frustration or negative sentiment, though not influential.\n- Sparse discussion overall, with no high-fave consensus on direction for $AMN.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/c0n5tantinople/status/2006592843976982575",
+          "https://x.com/a_mii65/status/2007179816911712453",
+          "https://x.com/intratio/status/2006002741198409791",
+          "https://x.com/a_mii65/status/2007537540841238829",
+          "https://x.com/tozzer121/status/2007015474543095871",
+          "https://x.com/forcewalke81743/status/2007427010268635144",
+          "https://x.com/Amaaaaanu/status/2005562598016929999",
+          "https://x.com/Ron284Ron/status/2005742975243149504",
+          "https://x.com/Amit00253158/status/2005936665060159956"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No Reddit posts found in r/stocks, r/investing, or similar subs matching \"AMN stock\" with ≥30 upvotes from 2025-12-28 to 2026-01-04.\n- General stock discussions (e.g., AMD, ASML, watchlists for 2026) dominate recent high-engagement threads, but none reference AMN.\n- Sentiment on broader semis/tech stocks like AMD is mixed-bullish for 2026, but irrelevant to AMN.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/investing/comments/1pzju0w/do_you_think_amd_can_still_go_up_in_2026/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.investing.com/news/stock-market-news/is-reddit-the-new-homepage-for-the-open-web-4425436",
+          "https://finance.yahoo.com/news/looking-big-ai-winners-2026-171414172.html",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q2ee30/top_stocks_to_buy_for_2026/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q1fa6s/i_should_have_invested_in_asml/"
+        ]
+      }
+    ],
+    "AVNS": [
+      {
+        "headline": "X pulse: - No posts with 50+ favorites found on X discussing $AVNS stock between 2025-12-28 and 2026-01-04, indicating low influential buzz.\n- Absence of high-engagement content suggests neutral to negligible sentiment among prominent users during this period.\n- Related crypto/stock tickers like $AVNT showed bearish technical views in some posts found on X, but nothing specific to $AVNS.\n- Overall, lack of min_faves:50 results points to limited discussion or interest in $AVNS recently.",
+        "impact": "pending",
+        "citations": [
+          "https://x.com/BigBlueNation85/status/2006920793792385407",
+          "https://x.com/luxurycharts/status/2007538628977930676",
+          "https://x.com/SmallCapKing2/status/2005652702307692863",
+          "https://x.com/risenfit/status/2006048116538237415",
+          "https://x.com/TronWeekly/status/2006968701296488593",
+          "https://x.com/Finora_EN/status/2006641417523712243",
+          "https://x.com/perpx_aiagent/status/2005765459312795940",
+          "https://x.com/JrgenSchmic3o/status/2007492015647596957",
+          "https://x.com/sumofchaos/status/2007120836780802251",
+          "https://x.com/MBdaytrading/status/2005968520484643283"
+        ]
+      },
+      {
+        "headline": "Reddit pulse: - No recent Reddit posts (2025-12-28 to 2026-01-04) about AVNS stock in relevant subs met the ~30+ upvotes threshold; limited discussion overall.\n- Sentiment unavailable due to lack of high-engagement threads matching criteria.",
+        "impact": "pending",
+        "citations": [
+          "https://www.reddit.com/r/stocks/comments/1q177dl/my_prediction_for_2026_and_beyond/",
+          "https://www.reddit.com/r/wallstreetbets/comments/1pyxvlx/is_avgo_a_trap_or_a_straight_up_opportunity_right/",
+          "https://www.reddit.com/r/stocks/comments/1q2hm4s/here_are_my_predictions_for_monday_010526/",
+          "https://www.reddit.com/r/stocks/comments/1q18qk1/2026_stock_watchlist_my_picks_your_thoughts/",
+          "https://www.fool.com/investing/2025/12/29/why-ill-never-sell-this-under-the-radar-warren-buf/",
+          "https://www.reddit.com/r/stocks/comments/1q0ltrm/feeling_pretty_good_about_my_portfolio_going_into/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1pz7gcn/since_we_all_cant_pick_winners_what_stock/",
+          "https://www.reddit.com/r/ValueInvesting/comments/1q0h6he/what_are_your_stockmarket_predictions_for_the_for/"
+        ]
+      }
+    ]
+  },
+  "sentiment_reports": {
+    "AMD": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.85,
+      "stance": "bullish",
+      "rationale": "X posts highlight bullish momentum into early 2026 driven by AI compute rotation, Mizuho's $277 undervaluation target post-78% surge, Doji rebound signals targeting $150+, and positive $216 quotes. Reddit threads feature AMD in top 2026 watchlists/picks across r/stocks and r/investing, with cautiously optimistic comments on AI growth and bullish forecasts.",
+      "confidence": 0.9
+    },
+    "ADI": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.8,
+      "stance": "bullish",
+      "rationale": "X posts show strong bullish sentiment driven by technical signals (MACD crossover, RSI at 56), steady price action post-launch, rising on-chain activity, and optimism around 2025 milestones like mainnet launch and exchange listings, with $1.50+ price targets. Reddit lacks specific high-upvote mentions of ADI, providing no counter-signal.",
+      "confidence": 0.85
+    },
+    "ALNY": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential or high-engagement posts about ALNY on X or Reddit in the specified period; low buzz with no specific mentions in popular threads, leading to inconclusive but neutral short-term sentiment. Unrelated tickers like ALCY show bullishness but are not applicable.",
+      "confidence": 0.9
+    },
+    "AHR": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No direct posts or discussions about $AHR meeting engagement thresholds on X or Reddit, resulting in low buzz and unavailable sentiment data. Related tickers ($ACHR, $AEHR) show bullish leanings, but lack of specific $AHR coverage prevents inference of directional short-term sentiment.",
+      "confidence": 0.3
+    },
+    "ACAD": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts (50+ favorites on X or ≥30 upvotes on Reddit) about ACAD were found during 2025-12-28 to 2026-01-04, a holiday-shortened period. Absence of high-engagement content and mentions amid general market discussions suggests low visibility and no evident bullish or bearish trends.",
+      "confidence": 0.95
+    },
+    "ALHC": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": -0.4,
+      "stance": "bearish",
+      "rationale": "X posts highlight heavy insider selling (1M shares, $18M+) as a strong bearish signal from smart money, outweighing short-term bullish technical momentum (upward move through EMAs). Cautious views from similar ticker add to negativity. No Reddit mentions or high-engagement posts dilute bullish case.",
+      "confidence": 0.6
+    },
+    "AMRX": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential or high-engagement posts about $AMRX found on X (min_faves:50) or Reddit (~30+ upvotes) during 2025-12-28 to 2026-01-04. Absence of bullish/bearish discussions and low visibility indicate neutral short-term sentiment with limited trader interest.",
+      "confidence": 0.9
+    },
+    "APLS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.1,
+      "stance": "neutral",
+      "rationale": "Limited discussion across X and Reddit with no influential or high-upvote posts; sparse X mentions show mildly positive sentiment from a profitable long position tied to Empaveli launch, but low buzz and absence in prediction threads indicate neutral overall short-term sentiment lacking conviction.",
+      "confidence": 0.6
+    },
+    "ADPT": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Absence of high-engagement posts on X (50+ favorites) or Reddit (30+ upvotes) specifically about $ADPT from 2025-12-28 to 2026-01-04 results in no discernible short-term sentiment. Sparse mentions of similar tickers and general bullish market discussions do not apply directly to ADPT. External price target noted but lacks engagement.",
+      "confidence": 0.25
+    },
+    "AVDL": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No high-engagement posts (50+ favorites on X, 30+ upvotes on Reddit) or discussions about $AVDL found in the queried period (2025-12-28 to 2026-01-04), indicating low visibility, negligible buzz, and neutral short-term sentiment with no bullish or bearish narratives.",
+      "confidence": 0.95
+    },
+    "AUPH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts on X (min_faves:50) or Reddit posts (≥30 upvotes) about $AUPH found from 2025-12-28 to 2026-01-04 across major financial subs. Complete absence of qualifying discussions indicates neutral to negligible short-term sentiment with low visibility and no hype or controversy.",
+      "confidence": 1
+    },
+    "ANIP": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts on X (min_faves:50) or Reddit (~30+ upvotes) discussing ANIP stock during the period, indicating absent or subdued public sentiment with no evidence of bullish or bearish buzz.",
+      "confidence": 0.95
+    },
+    "AVAH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts on X or high-engagement Reddit discussions about $AVAH in the queried period, indicating limited buzz and inconclusive sentiment. Mention of insider selling ($292k by CCO on 2026-01-03) introduces a mild bearish signal, but lack of broader discussion keeps overall short-term sentiment neutral.",
+      "confidence": 0.3
+    },
+    "AGIO": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": -0.3,
+      "stance": "bearish",
+      "rationale": "Low engagement across X and Reddit with no influential or upvoted posts. Available low-engagement X posts and news highlight multiple insider sales (including CEO's $506k sale), viewed negatively amid 15.56% yearly decline. Absence of bullish content suggests cautious to bearish short-term sentiment.",
+      "confidence": 0.5
+    },
+    "AHCO": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No high-engagement posts (50+ favorites on X, 30+ upvotes on Reddit) discussing AHCO found in the queried periods. Absence from influential discussions and watchlists indicates negligible public interest and inconclusive sentiment, defaulting to neutral.",
+      "confidence": 0.95
+    },
+    "ACHC": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No direct influential posts or discussions about $ACHC found on X or Reddit, indicating low buzz and unavailable sentiment data. Related ticker $ACHR shows cautiously optimistic/bullish sentiment, but ACHC lacks specific mentions, rendering overall short-term sentiment inconclusive/neutral.",
+      "confidence": 0.25
+    },
+    "ASTH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts on X (min 50+ favorites) or Reddit (30+ upvotes) found for $ASTH from 2025-12-28 to 2026-01-04, indicating minimal discussion, low retail buzz, and the ticker being under the radar. Lack of qualifying content suggests neutral sentiment with no evidence of bullish or bearish momentum.",
+      "confidence": 0.4
+    },
+    "AMLX": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.1,
+      "stance": "neutral",
+      "rationale": "Very low buzz on X and Reddit with no influential posts or specific mentions of AMLX. Sparse X mentions indicate mild bullish interest from options traders via covered calls (up to 44% returns), but offset by confusion with volatile penny stock AMIX and absence of broad support. General market sentiment neutral to bullish but irrelevant to AMLX.",
+      "confidence": 0.4
+    },
+    "ARDT": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts on X (50+ favorites) or Reddit (30+ upvotes) about $ARDT in the queried period. Sparse mentions of similar tickers show mixed signals but lack ARDT-specific engagement, resulting in absent bullish or bearish hype and neutral short-term sentiment.",
+      "confidence": 0.95
+    },
+    "AMPH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.65,
+      "stance": "bullish",
+      "rationale": "X posts show strong bullish signals for $APH (AMPH), including a late December long signal with 68% backtested win rate over 4-week holds, absorption of supply invalidating triple top, reclaiming short-term structure, and support at 10-week/50-day SMA with flat base/shallow double-bottom patterns. One neutral short-term trend note with slight bullish momentum weakening. Reddit lacks direct AMPH discussion (none meeting threshold); closest AMPX post is neutral/cautious.",
+      "confidence": 0.75
+    },
+    "ABUS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0.65,
+      "stance": "bullish",
+      "rationale": "X posts show positive sentiment with technical breakout patterns, volume spikes, heavy allocations, and predictions of surges past $10 on upcoming legal catalysts (Jan 9/16), despite low engagement. Reddit lacks qualifying ABUS discussions, indicating low visibility but no counter-sentiment. Overall, discussing users lean bullish for short-term upside.",
+      "confidence": 0.6
+    },
+    "AVBP": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential or high-engagement posts on X or Reddit about $AVBP during the period, indicating low visibility. Sparse low-fave X mentions suggest mildly positive hype tied to futuristic developments, but absence of significant discussion and no direct ties to related bullish tickers like $AVAV or AVGO imply neutral short-term sentiment.",
+      "confidence": 0.35
+    },
+    "AMN": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No influential posts on X (50+ favorites) or Reddit (≥30 upvotes) about $AMN during 2025-12-28 to 2026-01-04. Sparse X discussion shows mild bullish links to nurse staffing but minimal engagement, offset by non-influential negative emotional posts (crying emojis). Overall low buzz and no consensus indicate neutral short-term sentiment.",
+      "confidence": 0.7
+    },
+    "AVNS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "No high-engagement posts (50+ favorites on X or ~30+ upvotes on Reddit) found discussing $AVNS between 2025-12-28 and 2026-01-04, indicating low buzz and neutral to negligible short-term sentiment among influential users.",
+      "confidence": 0.9
+    }
+  },
+  "available_realtime_tools": {
+    "search_x_influential_posts": {
+      "name": "search_x_influential_posts",
+      "description": "Real-time search of influential X (Twitter) posts about stocks, earnings, insider moves, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7
+            ],
+            "default": 7
+          },
+          "min_engagement": {
+            "type": "integer",
+            "default": 50
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    },
+    "search_financial_subreddits": {
+      "name": "search_financial_subreddits",
+      "description": "Real-time search of r/wallstreetbets, r/stocks, r/investing, r/SecurityAnalysis, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7,
+              14
+            ],
+            "default": 7
+          },
+          "min_upvotes": {
+            "type": "integer",
+            "default": 30
+          },
+          "limit": {
+            "type": "integer",
+            "default": 15
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    }
+  },
+  "ticker_names": {
+    "AMD": "Advanced Micro Devices",
+    "ADI": "Analog Devices, Inc.",
+    "ALNY": "Alnylam Pharmaceuticals, Inc.",
+    "AHR": "American Healthcare REIT, Inc.",
+    "ACAD": "Acadia Pharmaceuticals Inc.",
+    "ALHC": "Alignment Healthcare, Inc. Common Stock",
+    "AMRX": "Amneal Pharmaceuticals, Inc. Class A Common Stock",
+    "APLS": "Apellis Pharmaceuticals, Inc. Common Stock",
+    "ADPT": "Adaptive Biotechnologies Corporation Common Stock",
+    "AVDL": "Avadel Pharmaceuticals plc Ordinary Share",
+    "AUPH": "Aurinia Pharmaceuticals Inc",
+    "ANIP": "ANI Pharmaceuticals, Inc.",
+    "AVAH": "Aveanna Healthcare Holdings Inc. Common Stock",
+    "AGIO": "Agios Pharmaceuticals, Inc.",
+    "AHCO": "AdaptHealth Corp. Common Stock",
+    "ACHC": "Acadia Healthcare Company, Inc.",
+    "ASTH": "Astrana Health Inc. Common Stock",
+    "AMLX": "Amylyx Pharmaceuticals, Inc. Common Stock",
+    "ARDT": "Ardent Health, Inc.",
+    "AMPH": "Amphastar Pharmaceuticals, Inc.",
+    "ABUS": "Arbutus Biopharma Corporation Common Stock",
+    "AVBP": "ArriVent BioPharma, Inc. Common Stock",
+    "AMN": "AMN Healthcare Services",
+    "AVNS": "Avanos Medical, Inc."
+  },
+  "bull_case": "Ladies and gentlemen, today we delve into the promising prospects of the semiconductor and biotech sectors, focusing on the structural tailwinds and revenue durability that position these industries for substantial growth. Despite current flat revenue growth, companies like AMD and ADI are poised to benefit from the increasing demand for advanced computing and connectivity solutions, driven by the proliferation of AI, IoT, and 5G technologies. These structural shifts are expected to catalyze a new wave of innovation and expansion, ensuring long-term revenue streams. Furthermore, ALNY stands at the forefront of biotech innovation, with its cutting-edge RNAi therapeutics offering transformative potential in treating genetic disorders. The durability of revenue in these sectors is underpinned by robust R&D pipelines and strategic investments, setting the stage for sustained growth and shareholder value. As we explore these opportunities, the focus remains on leveraging these tailwinds to capitalize on the evolving market landscape.",
+  "bear_case": "Ladies and gentlemen, while the semiconductor and biotech sectors present exciting narratives, it's crucial to examine the underlying risks. Valuation risk is a significant concern, particularly for companies like AMD and ALNY, where high expectations may not align with current revenue growth. The volatility in these stocks, as indicated by their ATR (Average True Range) values—AMD at 4.80 and ALNY at 7.31—suggests potential instability in price movements. Furthermore, the macroeconomic environment poses sensitivity risks; any downturns could severely impact these sectors, especially given their reliance on discretionary R&D spending. The RSI (Relative Strength Index) for ADI at 39.63 indicates potential bearish momentum, raising questions about immediate growth prospects. While the bull case highlights structural tailwinds, these are long-term and may not offset short-term market fluctuations and valuation concerns.",
+  "debate_summary": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%.",
+  "trader_proposal": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "score": 88.5,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "AVDL",
+      "name": "Avadel Pharmaceuticals plc Ordinary Share",
+      "score": 76,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "score": 80,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "score": 68,
+      "raw_allocation": 0.2
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "score": 64,
+      "raw_allocation": 0.2
+    }
+  ],
+  "risk_votes": {
+    "aggressive": "approve_with_monitoring",
+    "neutral": "approve",
+    "conservative": "veto"
+  },
+  "risk_adjusted_proposal": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "score": 88.5,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "AVDL",
+      "name": "Avadel Pharmaceuticals plc Ordinary Share",
+      "score": 76,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "score": 80,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "score": 68,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "score": 64,
+      "raw_allocation": 0.2,
+      "adjusted_allocation": 0.05000000000000002
+    }
+  ],
+  "vix_level": 18,
+  "high_volatility_tickers": [
+    "AMD",
+    "ADI",
+    "ALNY",
+    "AHR",
+    "ACAD",
+    "ALHC",
+    "AMRX",
+    "APLS",
+    "ADPT",
+    "AVDL",
+    "AUPH",
+    "ANIP",
+    "AVAH",
+    "AGIO",
+    "AHCO",
+    "ACHC",
+    "ASTH",
+    "AMLX",
+    "ARDT",
+    "AMPH",
+    "ABUS",
+    "AVBP",
+    "AMN",
+    "AVNS"
+  ],
+  "final_portfolio": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 88.5, sector fit Advanced Micro Devices"
+    },
+    {
+      "ticker": "AVDL",
+      "name": "Avadel Pharmaceuticals plc Ordinary Share",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 76, sector fit Avadel Pharmaceuticals plc Ordinary Share"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 80, sector fit Analog Devices, Inc."
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 68, sector fit Alnylam Pharmaceuticals, Inc."
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "allocation_pct": 20,
+      "reasoning": "Risk-adjusted score 64, sector fit American Healthcare REIT, Inc."
+    }
+  ],
+  "full_transcript": [
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:02.433Z",
+      "agent": "Market Scanner Agent",
+      "message": "Selected 24 tickers using sectors=Healthcare, minVolume=500000"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:04.696Z",
+      "agent": "Fundamental Analyst",
+      "message": "Generated fundamentals for 24 tickers"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:04.780Z",
+      "agent": "Technical Analyst",
+      "message": "Calculated technical indicators for 24 tickers"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:22.616Z",
+      "agent": "News Analyst",
+      "message": "Fetched Grok live search summaries for X and Reddit"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:29.011Z",
+      "agent": "Sentiment Analyst",
+      "message": "Computed sentiment using Grok tool context + LiteLLM fast model"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:32.577Z",
+      "agent": "Bull Researcher",
+      "message": "Ladies and gentlemen, today we delve into the promising prospects of the semiconductor and biotech sectors, focusing on the structural tailwinds and revenue durability that position these industries for substantial growth. Despite current flat revenue growth, companies like AMD and ADI are poised to benefit from the increasing demand for advanced computing and connectivity solutions, driven by the proliferation of AI, IoT, and 5G technologies. These structural shifts are expected to catalyze a new wave of innovation and expansion, ensuring long-term revenue streams. Furthermore, ALNY stands at the forefront of biotech innovation, with its cutting-edge RNAi therapeutics offering transformative potential in treating genetic disorders. The durability of revenue in these sectors is underpinned by robust R&D pipelines and strategic investments, setting the stage for sustained growth and shareholder value. As we explore these opportunities, the focus remains on leveraging these tailwinds to capitalize on the evolving market landscape."
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.671Z",
+      "agent": "Bear Researcher",
+      "message": "Ladies and gentlemen, while the semiconductor and biotech sectors present exciting narratives, it's crucial to examine the underlying risks. Valuation risk is a significant concern, particularly for companies like AMD and ALNY, where high expectations may not align with current revenue growth. The volatility in these stocks, as indicated by their ATR (Average True Range) values—AMD at 4.80 and ALNY at 7.31—suggests potential instability in price movements. Furthermore, the macroeconomic environment poses sensitivity risks; any downturns could severely impact these sectors, especially given their reliance on discretionary R&D spending. The RSI (Relative Strength Index) for ADI at 39.63 indicates potential bearish momentum, raising questions about immediate growth prospects. While the bull case highlights structural tailwinds, these are long-term and may not offset short-term market fluctuations and valuation concerns."
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.671Z",
+      "agent": "Debate Moderator",
+      "message": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%."
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.672Z",
+      "agent": "Trader Agent",
+      "message": "Ranked 5 tickers with preliminary equal weights"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.821Z",
+      "agent": "Get VIX Agent",
+      "message": "VIX level recorded at 18"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.821Z",
+      "agent": "Aggressive Risk Agent",
+      "message": "Signed off with caveats on earnings dates and liquidity"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.821Z",
+      "agent": "Neutral Risk Agent",
+      "message": "No objections; allocations acceptable"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.822Z",
+      "agent": "Conservative Risk Agent",
+      "message": "VETO: VIX 18 or high ATR tickers AMD, ADI, ALNY, AHR, ACAD, ALHC, AMRX, APLS, ADPT, AVDL, AUPH, ANIP, AVAH, AGIO, AHCO, ACHC, ASTH, AMLX, ARDT, AMPH, ABUS, AVBP, AMN, AVNS"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.822Z",
+      "agent": "Risk Supervisor",
+      "message": "Conservative veto enforced; allocations penalized for volatility"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.822Z",
+      "agent": "Fund Manager",
+      "message": "Applied 30% cap, normalized weights, and prepared final list"
+    },
+    {
+      "run_id": "dac51b9927f70257",
+      "timestamp": "2026-01-04T23:29:35.822Z",
+      "agent": "Report Writer",
+      "message": "ATHENA ADVISORY – 2026-01-04 | Run ID: dac51b9927f70257\nRisk Profile: aggressive | Horizon: 1 yrs | Requested: 5\nVIX: 18\nFINAL RECOMMENDED PORTFOLIO\n1. AMD – 20% – Risk-adjusted score 88.5, sector fit Advanced Micro Devices\n2. AVDL – 20% – Risk-adjusted score 76, sector fit Avadel Pharmaceuticals plc Ordinary Share\n3. ADI – 20% – Risk-adjusted score 80, sector fit Analog Devices, Inc.\n4. ALNY – 20% – Risk-adjusted score 68, sector fit Alnylam Pharmaceuticals, Inc.\n5. AHR – 20% – Risk-adjusted score 64, sector fit American Healthcare REIT, Inc.\nNote: Advisory only; no auto-execution. Max single position capped at 30%."
+    }
+  ]
+}

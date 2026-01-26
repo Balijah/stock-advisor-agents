@@ -1,0 +1,693 @@
+{
+  "run_id": "4f9f240b113bd67b",
+  "timestamp": "2026-01-04T17:20:19.322Z",
+  "user_inputs": {
+    "risk_tolerance": "aggressive",
+    "investment_horizon_years": 1,
+    "preferred_sectors": [
+      "energy"
+    ],
+    "num_stocks_requested": 10,
+    "min_volume": 500000
+  },
+  "candidate_tickers": [
+    "ATO",
+    "AEIS",
+    "AESI",
+    "ADSE",
+    "AMPY",
+    "AEC",
+    "ACFN"
+  ],
+  "fundamental_reports": {
+    "ADSE": {
+      "ticker": "ADSE",
+      "marketCap": null,
+      "peRatio": null,
+      "revenueGrowth": null,
+      "debtToEquity": null
+    }
+  },
+  "technical_reports": {
+    "ATO": {
+      "ticker": "ATO",
+      "price": 169.36,
+      "rsi": 53.35138794854437,
+      "atr": 6.629995352558259,
+      "sma50": 172.22259999999994,
+      "sma200": 162.77365000000006,
+      "volume": 656476,
+      "atr_30d": 6.629995352558259,
+      "macd_signal": "neutral",
+      "trend_score": 63
+    },
+    "AEIS": {
+      "ticker": "AEIS",
+      "price": 221.99,
+      "rsi": 56.95897023330653,
+      "atr": 7.302927818687618,
+      "sma50": 210.2338,
+      "sma200": 153.20234999999994,
+      "volume": 337571,
+      "atr_30d": 7.302927818687618,
+      "macd_signal": "neutral",
+      "trend_score": 67
+    },
+    "AESI": {
+      "ticker": "AESI",
+      "price": 9.72,
+      "rsi": 42.68774703557314,
+      "atr": 5.6302949065626695,
+      "sma50": 9.8404,
+      "sma200": 12.257699999999998,
+      "volume": 3262845,
+      "atr_30d": 5.6302949065626695,
+      "macd_signal": "neutral",
+      "trend_score": 33
+    },
+    "ADSE": {
+      "ticker": "ADSE",
+      "price": 12.61,
+      "rsi": 52.36486486486484,
+      "atr": 6.670512961785459,
+      "sma50": 11.3797,
+      "sma200": 11.728799999999994,
+      "volume": 9004,
+      "atr_30d": 6.670512961785459,
+      "macd_signal": "neutral",
+      "trend_score": 42
+    },
+    "AMPY": {
+      "ticker": "AMPY",
+      "price": 4.63,
+      "rsi": 40.350877192982466,
+      "atr": 6.343527088126135,
+      "sma50": 5.036999999999999,
+      "sma200": 3.969999999999999,
+      "volume": 622033,
+      "atr_30d": 6.343527088126135,
+      "macd_signal": "neutral",
+      "trend_score": 50
+    },
+    "AEC": {
+      "ticker": "AEC",
+      "price": 5.9,
+      "rsi": 54.029850746268664,
+      "atr": 5.798352318178972,
+      "sma50": 6.3568999999999996,
+      "sma200": null,
+      "volume": 129986,
+      "atr_30d": 5.798352318178972,
+      "macd_signal": "neutral",
+      "trend_score": 64
+    },
+    "ACFN": {
+      "ticker": "ACFN",
+      "price": 15.22,
+      "rsi": 42.89276807980051,
+      "atr": 5.511628212461476,
+      "sma50": 17.051199999999998,
+      "sma200": 20.045352499999996,
+      "volume": 45677,
+      "atr_30d": 5.511628212461476,
+      "macd_signal": "neutral",
+      "trend_score": 33
+    }
+  },
+  "news_reports": {
+    "ATO": [
+      {
+        "headline": "ATO: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ATO: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AEIS": [
+      {
+        "headline": "AEIS: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AEIS: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AESI": [
+      {
+        "headline": "AESI: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AESI: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ADSE": [
+      {
+        "headline": "ADSE: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ADSE: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AMPY": [
+      {
+        "headline": "AMPY: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AMPY: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AEC": [
+      {
+        "headline": "AEC: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AEC: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ACFN": [
+      {
+        "headline": "ACFN: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ACFN: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ]
+  },
+  "sentiment_reports": {
+    "ATO": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AEIS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AESI": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ADSE": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AMPY": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AEC": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ACFN": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    }
+  },
+  "available_realtime_tools": {
+    "search_x_influential_posts": {
+      "name": "search_x_influential_posts",
+      "description": "Real-time search of influential X (Twitter) posts about stocks, earnings, insider moves, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7
+            ],
+            "default": 7
+          },
+          "min_engagement": {
+            "type": "integer",
+            "default": 50
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    },
+    "search_financial_subreddits": {
+      "name": "search_financial_subreddits",
+      "description": "Real-time search of r/wallstreetbets, r/stocks, r/investing, r/SecurityAnalysis, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7,
+              14
+            ],
+            "default": 7
+          },
+          "min_upvotes": {
+            "type": "integer",
+            "default": 30
+          },
+          "limit": {
+            "type": "integer",
+            "default": 15
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    }
+  },
+  "ticker_names": {
+    "ATO": "Atmos Energy Corporation",
+    "AEIS": "Advanced Energy Industries Inc",
+    "AESI": "Atlas Energy Solutions Inc.",
+    "ADSE": "ADS-TEC ENERGY PLC Ordinary Shares",
+    "AMPY": "Amplify Energy Corp.",
+    "AEC": "Anfield Energy Inc. Common Shares",
+    "ACFN": "Acorn Energy, Inc. Common Stock"
+  },
+  "bull_case": "As the Bull Researcher, let's explore the promising outlook for ADSE. Despite a current plateau in revenue growth, the company is strategically positioned to capitalize on structural tailwinds that suggest robust future performance. ADSE operates in a sector poised for expansion, driven by technological advancements and increasing demand for sustainable solutions. This positions the company to benefit from long-term industry trends, enhancing revenue durability. Furthermore, ADSE's commitment to innovation and strategic partnerships is likely to unlock new revenue streams, reinforcing its growth trajectory. The company's resilience and adaptability in a dynamic market environment underscore its potential for sustained success.",
+  "bear_case": "While the bull case for ADSE highlights potential growth, several factors warrant skepticism. Valuation risk is a concern, as the current market price may already reflect optimistic future growth, leaving little room for error. The company's revenue plateau suggests potential challenges in maintaining momentum, and any missteps could lead to significant volatility. For instance, AESI's trend score of 33 and RSI of 42.69 indicate bearish sentiment and potential downside risk. Additionally, the sector's macro sensitivity could expose ADSE to broader economic fluctuations, which might hinder its ability to capitalize on structural tailwinds. While strategic partnerships are promising, they may not materialize into immediate revenue streams, delaying expected benefits. Thus, investors should be cautious about overestimating ADSE's resilience and adaptability in a volatile market.",
+  "debate_summary": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%.",
+  "trader_proposal": [
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy Corporation",
+      "score": 80,
+      "raw_allocation": 0.14285714285714285
+    },
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries Inc",
+      "score": 76,
+      "raw_allocation": 0.14285714285714285
+    },
+    {
+      "ticker": "AESI",
+      "name": "Atlas Energy Solutions Inc.",
+      "score": 72,
+      "raw_allocation": 0.14285714285714285
+    },
+    {
+      "ticker": "ADSE",
+      "name": "ADS-TEC ENERGY PLC Ordinary Shares",
+      "score": 68,
+      "raw_allocation": 0.14285714285714285
+    },
+    {
+      "ticker": "AMPY",
+      "name": "Amplify Energy Corp.",
+      "score": 64,
+      "raw_allocation": 0.14285714285714285
+    },
+    {
+      "ticker": "AEC",
+      "name": "Anfield Energy Inc. Common Shares",
+      "score": 60,
+      "raw_allocation": 0.14285714285714285
+    },
+    {
+      "ticker": "ACFN",
+      "name": "Acorn Energy, Inc. Common Stock",
+      "score": 56,
+      "raw_allocation": 0.14285714285714285
+    }
+  ],
+  "risk_votes": {
+    "aggressive": "approve_with_monitoring",
+    "neutral": "approve",
+    "conservative": "veto"
+  },
+  "risk_adjusted_proposal": [
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy Corporation",
+      "score": 80,
+      "raw_allocation": 0.14285714285714285,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries Inc",
+      "score": 76,
+      "raw_allocation": 0.14285714285714285,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "AESI",
+      "name": "Atlas Energy Solutions Inc.",
+      "score": 72,
+      "raw_allocation": 0.14285714285714285,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "ADSE",
+      "name": "ADS-TEC ENERGY PLC Ordinary Shares",
+      "score": 68,
+      "raw_allocation": 0.14285714285714285,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "AMPY",
+      "name": "Amplify Energy Corp.",
+      "score": 64,
+      "raw_allocation": 0.14285714285714285,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "AEC",
+      "name": "Anfield Energy Inc. Common Shares",
+      "score": 60,
+      "raw_allocation": 0.14285714285714285,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "ACFN",
+      "name": "Acorn Energy, Inc. Common Stock",
+      "score": 56,
+      "raw_allocation": 0.14285714285714285,
+      "adjusted_allocation": 0.05
+    }
+  ],
+  "vix_level": 18,
+  "high_volatility_tickers": [
+    "ATO",
+    "AEIS",
+    "AESI",
+    "ADSE",
+    "AMPY",
+    "AEC",
+    "ACFN"
+  ],
+  "final_portfolio": [
+    {
+      "ticker": "ATO",
+      "name": "Atmos Energy Corporation",
+      "allocation_pct": 14.3,
+      "reasoning": "Risk-adjusted score 80, sector fit Atmos Energy Corporation"
+    },
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries Inc",
+      "allocation_pct": 14.3,
+      "reasoning": "Risk-adjusted score 76, sector fit Advanced Energy Industries Inc"
+    },
+    {
+      "ticker": "AESI",
+      "name": "Atlas Energy Solutions Inc.",
+      "allocation_pct": 14.3,
+      "reasoning": "Risk-adjusted score 72, sector fit Atlas Energy Solutions Inc."
+    },
+    {
+      "ticker": "ADSE",
+      "name": "ADS-TEC ENERGY PLC Ordinary Shares",
+      "allocation_pct": 14.3,
+      "reasoning": "Risk-adjusted score 68, sector fit ADS-TEC ENERGY PLC Ordinary Shares"
+    },
+    {
+      "ticker": "AMPY",
+      "name": "Amplify Energy Corp.",
+      "allocation_pct": 14.3,
+      "reasoning": "Risk-adjusted score 64, sector fit Amplify Energy Corp."
+    },
+    {
+      "ticker": "AEC",
+      "name": "Anfield Energy Inc. Common Shares",
+      "allocation_pct": 14.3,
+      "reasoning": "Risk-adjusted score 60, sector fit Anfield Energy Inc. Common Shares"
+    },
+    {
+      "ticker": "ACFN",
+      "name": "Acorn Energy, Inc. Common Stock",
+      "allocation_pct": 14.3,
+      "reasoning": "Risk-adjusted score 56, sector fit Acorn Energy, Inc. Common Stock"
+    }
+  ],
+  "full_transcript": [
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.239Z",
+      "agent": "Market Scanner Agent",
+      "message": "Selected 7 tickers using sectors=energy, minVolume=500000"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.293Z",
+      "agent": "Fundamental Analyst",
+      "message": "Failed fundamentals for ATO: Cannot read properties of undefined (reading 'value')"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.391Z",
+      "agent": "Fundamental Analyst",
+      "message": "Failed fundamentals for AESI: Cannot read properties of undefined (reading 'value')"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.402Z",
+      "agent": "Fundamental Analyst",
+      "message": "Failed fundamentals for AEIS: Cannot read properties of undefined (reading 'value')"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.402Z",
+      "agent": "Fundamental Analyst",
+      "message": "Failed fundamentals for AMPY: Cannot read properties of undefined (reading 'value')"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.403Z",
+      "agent": "Fundamental Analyst",
+      "message": "Failed fundamentals for AEC: Cannot read properties of undefined (reading 'value')"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.404Z",
+      "agent": "Fundamental Analyst",
+      "message": "Failed fundamentals for ACFN: Cannot read properties of undefined (reading 'value')"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.404Z",
+      "agent": "Fundamental Analyst",
+      "message": "Generated fundamentals for 1 tickers"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.471Z",
+      "agent": "Technical Analyst",
+      "message": "Calculated technical indicators for 7 tickers"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.667Z",
+      "agent": "News Analyst",
+      "message": "Fetched Grok live search summaries for X and Reddit"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.728Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ACFN: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.730Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AMPY: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.731Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AEIS: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.732Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AESI: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.733Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ATO: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.737Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ADSE: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.820Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AEC: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:20.821Z",
+      "agent": "Sentiment Analyst",
+      "message": "Computed sentiment using Grok tool context + LiteLLM fast model"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:23.234Z",
+      "agent": "Bull Researcher",
+      "message": "As the Bull Researcher, let's explore the promising outlook for ADSE. Despite a current plateau in revenue growth, the company is strategically positioned to capitalize on structural tailwinds that suggest robust future performance. ADSE operates in a sector poised for expansion, driven by technological advancements and increasing demand for sustainable solutions. This positions the company to benefit from long-term industry trends, enhancing revenue durability. Furthermore, ADSE's commitment to innovation and strategic partnerships is likely to unlock new revenue streams, reinforcing its growth trajectory. The company's resilience and adaptability in a dynamic market environment underscore its potential for sustained success."
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.554Z",
+      "agent": "Bear Researcher",
+      "message": "While the bull case for ADSE highlights potential growth, several factors warrant skepticism. Valuation risk is a concern, as the current market price may already reflect optimistic future growth, leaving little room for error. The company's revenue plateau suggests potential challenges in maintaining momentum, and any missteps could lead to significant volatility. For instance, AESI's trend score of 33 and RSI of 42.69 indicate bearish sentiment and potential downside risk. Additionally, the sector's macro sensitivity could expose ADSE to broader economic fluctuations, which might hinder its ability to capitalize on structural tailwinds. While strategic partnerships are promising, they may not materialize into immediate revenue streams, delaying expected benefits. Thus, investors should be cautious about overestimating ADSE's resilience and adaptability in a volatile market."
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.554Z",
+      "agent": "Debate Moderator",
+      "message": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%."
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.554Z",
+      "agent": "Trader Agent",
+      "message": "Ranked 7 tickers with preliminary equal weights"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.706Z",
+      "agent": "Get VIX Agent",
+      "message": "VIX level recorded at 18"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.706Z",
+      "agent": "Aggressive Risk Agent",
+      "message": "Signed off with caveats on earnings dates and liquidity"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.706Z",
+      "agent": "Neutral Risk Agent",
+      "message": "No objections; allocations acceptable"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.707Z",
+      "agent": "Conservative Risk Agent",
+      "message": "VETO: VIX 18 or high ATR tickers ATO, AEIS, AESI, ADSE, AMPY, AEC, ACFN"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.707Z",
+      "agent": "Risk Supervisor",
+      "message": "Conservative veto enforced; allocations penalized for volatility"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.708Z",
+      "agent": "Fund Manager",
+      "message": "Applied 30% cap, normalized weights, and prepared final list"
+    },
+    {
+      "run_id": "4f9f240b113bd67b",
+      "timestamp": "2026-01-04T17:20:26.708Z",
+      "agent": "Report Writer",
+      "message": "ATHENA ADVISORY – 2026-01-04 | Run ID: 4f9f240b113bd67b\nRisk Profile: aggressive | Horizon: 1 yrs | Requested: 10\nVIX: 18\nFINAL RECOMMENDED PORTFOLIO\n1. ATO – 14.3% – Risk-adjusted score 80, sector fit Atmos Energy Corporation\n2. AEIS – 14.3% – Risk-adjusted score 76, sector fit Advanced Energy Industries Inc\n3. AESI – 14.3% – Risk-adjusted score 72, sector fit Atlas Energy Solutions Inc.\n4. ADSE – 14.3% – Risk-adjusted score 68, sector fit ADS-TEC ENERGY PLC Ordinary Shares\n5. AMPY – 14.3% – Risk-adjusted score 64, sector fit Amplify Energy Corp.\n6. AEC – 14.3% – Risk-adjusted score 60, sector fit Anfield Energy Inc. Common Shares\n7. ACFN – 14.3% – Risk-adjusted score 56, sector fit Acorn Energy, Inc. Common Stock\nNote: Advisory only; no auto-execution. Max single position capped at 30%."
+    }
+  ]
+}

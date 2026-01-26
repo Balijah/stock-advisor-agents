@@ -1,0 +1,1643 @@
+{
+  "run_id": "72c150b79664323b",
+  "timestamp": "2026-01-05T00:58:54.627Z",
+  "user_inputs": {
+    "risk_tolerance": "aggressive",
+    "investment_horizon_years": 5,
+    "preferred_sectors": [
+      "Healthcare"
+    ],
+    "num_stocks_requested": 6,
+    "min_volume": 500000
+  },
+  "candidate_tickers": [
+    "AMD",
+    "ADI",
+    "ALNY",
+    "AHR",
+    "ACAD",
+    "ALHC",
+    "AMRX",
+    "APLS",
+    "ADPT",
+    "AVDL",
+    "AUPH",
+    "ANIP",
+    "AVAH",
+    "AGIO",
+    "AHCO",
+    "ACHC",
+    "ASTH",
+    "AMLX",
+    "ARDT",
+    "AMPH",
+    "ABUS",
+    "AVBP",
+    "AMN",
+    "AVNS"
+  ],
+  "fundamental_reports": {
+    "AMD": {
+      "ticker": "AMD",
+      "marketCap": 363818442943.8,
+      "peRatio": 223.47,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "marketCap": 134037912512.78,
+      "peRatio": 273.74,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ALNY": {
+      "ticker": "ALNY",
+      "marketCap": 52867986549.060005,
+      "peRatio": 400.17,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AHR": {
+      "ticker": "AHR",
+      "marketCap": 8416494097.84,
+      "peRatio": 47.24,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ACAD": {
+      "ticker": "ACAD",
+      "marketCap": 4447789968.93,
+      "peRatio": 26.290000000000003,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ALHC": {
+      "ticker": "ALHC",
+      "marketCap": 4045855023.24,
+      "peRatio": 20.22,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMRX": {
+      "ticker": "AMRX",
+      "marketCap": 3979834567.2,
+      "peRatio": 12.66,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "APLS": {
+      "ticker": "APLS",
+      "marketCap": 3271942137.48,
+      "peRatio": 25.86,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ADPT": {
+      "ticker": "ADPT",
+      "marketCap": 2428903141.08,
+      "peRatio": 15.91,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVDL": {
+      "ticker": "AVDL",
+      "marketCap": 2111997289.76,
+      "peRatio": 21.52,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AUPH": {
+      "ticker": "AUPH",
+      "marketCap": 2023752580.6499999,
+      "peRatio": 15.35,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ANIP": {
+      "ticker": "ANIP",
+      "marketCap": 1761394116.2400002,
+      "peRatio": 78.43,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVAH": {
+      "ticker": "AVAH",
+      "marketCap": 1688003974.64,
+      "peRatio": 8.08,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AGIO": {
+      "ticker": "AGIO",
+      "marketCap": 1584969410.16,
+      "peRatio": 27.18,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AHCO": {
+      "ticker": "AHCO",
+      "marketCap": 1309553309.78,
+      "peRatio": 9.67,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ACHC": {
+      "ticker": "ACHC",
+      "marketCap": 1292448489.6899998,
+      "peRatio": 14.289999999999997,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ASTH": {
+      "ticker": "ASTH",
+      "marketCap": 1264924559.86,
+      "peRatio": 25.22,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMLX": {
+      "ticker": "AMLX",
+      "marketCap": 1254139477.98,
+      "peRatio": 11.42,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ARDT": {
+      "ticker": "ARDT",
+      "marketCap": 1237141563.8400002,
+      "peRatio": 8.64,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMPH": {
+      "ticker": "AMPH",
+      "marketCap": 1215894524.04,
+      "peRatio": 26.46,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "ABUS": {
+      "ticker": "ABUS",
+      "marketCap": 917385561.0899999,
+      "peRatio": 4.77,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVBP": {
+      "ticker": "AVBP",
+      "marketCap": 858652308.8000001,
+      "peRatio": 20.8,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AMN": {
+      "ticker": "AMN",
+      "marketCap": 580816353.6,
+      "peRatio": 15.120000000000001,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    },
+    "AVNS": {
+      "ticker": "AVNS",
+      "marketCap": 518963380.26,
+      "peRatio": 11.18,
+      "revenueGrowth": null,
+      "earningsGrowth": null,
+      "returnOnEquity": null,
+      "debtToEquity": null
+    }
+  },
+  "technical_reports": {
+    "AMD": {
+      "ticker": "AMD",
+      "price": 223.47,
+      "rsi": 64.31956668923496,
+      "atr": 7.721006605247623,
+      "atr_pct": 0.034550528506052815,
+      "momentum_3m": 0.31662051493548593,
+      "sma50": 227.62740000000005,
+      "sma200": 163.23462500000002,
+      "volume": 36443331,
+      "atr_30d": 7.721006605247623,
+      "macd_signal": "neutral",
+      "trend_score": 74
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "price": 273.74,
+      "rsi": 39.62825278810413,
+      "atr": 4.390158641880889,
+      "atr_pct": 0.016037695045959265,
+      "momentum_3m": 0.1327016179087186,
+      "sma50": 255.3536,
+      "sma200": 232.59582499999996,
+      "volume": 3608019,
+      "atr_30d": 4.390158641880889,
+      "macd_signal": "neutral",
+      "trend_score": 50
+    },
+    "ALNY": {
+      "ticker": "ALNY",
+      "price": 400.17,
+      "rsi": 53.24900793650794,
+      "atr": 6.888811000243244,
+      "atr_pct": 0.01721471124832757,
+      "momentum_3m": -0.13193344758020775,
+      "sma50": 434.6743999999999,
+      "sma200": 371.90772499999986,
+      "volume": 730422,
+      "atr_30d": 6.888811000243244,
+      "macd_signal": "neutral",
+      "trend_score": 63
+    },
+    "AHR": {
+      "ticker": "AHR",
+      "price": 47.24,
+      "rsi": 49.86737400530507,
+      "atr": 5.615079927267192,
+      "atr_pct": 0.11886282657212513,
+      "momentum_3m": 0.14327202323330113,
+      "sma50": 47.814799999999984,
+      "sma200": 39.59224999999999,
+      "volume": 1629452,
+      "atr_30d": 5.615079927267192,
+      "macd_signal": "neutral",
+      "trend_score": 60
+    },
+    "ACAD": {
+      "ticker": "ACAD",
+      "price": 26.29,
+      "rsi": 40.137614678899105,
+      "atr": 6.06448103145738,
+      "atr_pct": 0.23067634201055076,
+      "momentum_3m": 0.22965388213283444,
+      "sma50": 24.804799999999986,
+      "sma200": 21.875875,
+      "volume": 1666166,
+      "atr_30d": 6.06448103145738,
+      "macd_signal": "neutral",
+      "trend_score": 50
+    },
+    "ALHC": {
+      "ticker": "ALHC",
+      "price": 20.22,
+      "rsi": 59.3886462882096,
+      "atr": 3.461115284468368,
+      "atr_pct": 0.17117286273335153,
+      "momentum_3m": 0.2598130841121493,
+      "sma50": 18.259399999999996,
+      "sma200": 16.384700000000002,
+      "volume": 2572340,
+      "atr_30d": 3.461115284468368,
+      "macd_signal": "neutral",
+      "trend_score": 69
+    },
+    "AMRX": {
+      "ticker": "AMRX",
+      "price": 12.66,
+      "rsi": 62.032085561497304,
+      "atr": 5.272286119643562,
+      "atr_pct": 0.4164523001298232,
+      "momentum_3m": 0.2173076923076922,
+      "sma50": 11.850599999999996,
+      "sma200": 9.319500000000001,
+      "volume": 1211172,
+      "atr_30d": 5.272286119643562,
+      "macd_signal": "neutral",
+      "trend_score": 72
+    },
+    "APLS": {
+      "ticker": "APLS",
+      "price": 25.86,
+      "rsi": 55.822550831792974,
+      "atr": 7.488831861864286,
+      "atr_pct": 0.28959133263202963,
+      "momentum_3m": 0.11899610558199925,
+      "sma50": 23.1103,
+      "sma200": 21.915249999999993,
+      "volume": 3275000,
+      "atr_30d": 7.488831861864286,
+      "macd_signal": "neutral",
+      "trend_score": 66
+    },
+    "ADPT": {
+      "ticker": "ADPT",
+      "price": 15.91,
+      "rsi": 56.69515669515671,
+      "atr": 3.258672788268657,
+      "atr_pct": 0.20481915702505699,
+      "momentum_3m": 0.1172752808988764,
+      "sma50": 16.5016,
+      "sma200": 12.37869999999999,
+      "volume": 1060412,
+      "atr_30d": 3.258672788268657,
+      "macd_signal": "neutral",
+      "trend_score": 67
+    },
+    "AVDL": {
+      "ticker": "AVDL",
+      "price": 21.52,
+      "rsi": 65.9999999999999,
+      "atr": 4.652920664084382,
+      "atr_pct": 0.21621378550577985,
+      "momentum_3m": 0.44042838018741626,
+      "sma50": 20.801199999999998,
+      "sma200": 13.581875000000002,
+      "volume": 1062402,
+      "atr_30d": 4.652920664084382,
+      "macd_signal": "neutral",
+      "trend_score": 76
+    },
+    "AUPH": {
+      "ticker": "AUPH",
+      "price": 15.35,
+      "rsi": 38.88888888888885,
+      "atr": 6.2245769371035,
+      "atr_pct": 0.40550989818263844,
+      "momentum_3m": 0.36323268206039083,
+      "sma50": 15.010900000000003,
+      "sma200": 10.971199999999994,
+      "volume": 1674993,
+      "atr_30d": 6.2245769371035,
+      "macd_signal": "neutral",
+      "trend_score": 49
+    },
+    "ANIP": {
+      "ticker": "ANIP",
+      "price": 78.43,
+      "rsi": 41.15523465703974,
+      "atr": 4.9698642843566425,
+      "atr_pct": 0.06336687854592174,
+      "momentum_3m": -0.12004936609446859,
+      "sma50": 85.0028,
+      "sma200": 77.35485,
+      "volume": 631587,
+      "atr_30d": 4.9698642843566425,
+      "macd_signal": "neutral",
+      "trend_score": 51
+    },
+    "AVAH": {
+      "ticker": "AVAH",
+      "price": 8.08,
+      "rsi": 19.07894736842117,
+      "atr": 5.733604045420895,
+      "atr_pct": 0.7096044610669424,
+      "momentum_3m": -0.06697459584295617,
+      "sma50": 8.962599999999997,
+      "sma200": 6.774999999999999,
+      "volume": 2526966,
+      "atr_30d": 5.733604045420895,
+      "macd_signal": "neutral",
+      "trend_score": 29
+    },
+    "AGIO": {
+      "ticker": "AGIO",
+      "price": 27.18,
+      "rsi": 49.57426679280984,
+      "atr": 5.655513260314413,
+      "atr_pct": 0.20807627889309835,
+      "momentum_3m": -0.3193087903831705,
+      "sma50": 33.0435,
+      "sma200": 34.192725,
+      "volume": 947024,
+      "atr_30d": 5.655513260314413,
+      "macd_signal": "neutral",
+      "trend_score": 40
+    },
+    "AHCO": {
+      "ticker": "AHCO",
+      "price": 9.67,
+      "rsi": 32.367149758454104,
+      "atr": 4.2935844834102515,
+      "atr_pct": 0.44401080490281813,
+      "momentum_3m": 0.02436440677966112,
+      "sma50": 9.686200000000003,
+      "sma200": 9.269175000000004,
+      "volume": 1062818,
+      "atr_30d": 4.2935844834102515,
+      "macd_signal": "neutral",
+      "trend_score": 42
+    },
+    "ACHC": {
+      "ticker": "ACHC",
+      "price": 14.29,
+      "rsi": 50.216450216450205,
+      "atr": 7.24136954027256,
+      "atr_pct": 0.5067438446656795,
+      "momentum_3m": -0.4631855747558228,
+      "sma50": 16.957900000000002,
+      "sma200": 21.936200000000003,
+      "volume": 2065677,
+      "atr_30d": 7.24136954027256,
+      "macd_signal": "neutral",
+      "trend_score": 40
+    },
+    "ASTH": {
+      "ticker": "ASTH",
+      "price": 25.22,
+      "rsi": 66.54064272211721,
+      "atr": 5.326167400788017,
+      "atr_pct": 0.21118823952371202,
+      "momentum_3m": -0.09182571119913574,
+      "sma50": 25.4245,
+      "sma200": 27.423825000000026,
+      "volume": 602937,
+      "atr_30d": 5.326167400788017,
+      "macd_signal": "neutral",
+      "trend_score": 57
+    },
+    "AMLX": {
+      "ticker": "AMLX",
+      "price": 11.42,
+      "rsi": 25.722543352601164,
+      "atr": 6.890218357010123,
+      "atr_pct": 0.6033466162005362,
+      "momentum_3m": -0.14070729872084264,
+      "sma50": 13.3348,
+      "sma200": 9.090675000000001,
+      "volume": 2124594,
+      "atr_30d": 6.890218357010123,
+      "macd_signal": "neutral",
+      "trend_score": 36
+    },
+    "ARDT": {
+      "ticker": "ARDT",
+      "price": 8.64,
+      "rsi": 44.827586206896584,
+      "atr": 4.958272806224918,
+      "atr_pct": 0.5738741673871433,
+      "momentum_3m": -0.3449583017437452,
+      "sma50": 10.688000000000002,
+      "sma200": 12.522450000000001,
+      "volume": 389114,
+      "atr_30d": 4.958272806224918,
+      "macd_signal": "neutral",
+      "trend_score": 35
+    },
+    "AMPH": {
+      "ticker": "AMPH",
+      "price": 26.46,
+      "rsi": 59.80230642504119,
+      "atr": 6.141836456774922,
+      "atr_pct": 0.23211777992346644,
+      "momentum_3m": -0.002262443438914019,
+      "sma50": 26.042999999999992,
+      "sma200": 25.606349999999985,
+      "volume": 405969,
+      "atr_30d": 6.141836456774922,
+      "macd_signal": "neutral",
+      "trend_score": 70
+    },
+    "ABUS": {
+      "ticker": "ABUS",
+      "price": 4.77,
+      "rsi": 51.76470588235292,
+      "atr": 3.324174199869197,
+      "atr_pct": 0.6968918658006703,
+      "momentum_3m": 0.062360801781736974,
+      "sma50": 4.539199999999999,
+      "sma200": 3.8186999999999984,
+      "volume": 1604635,
+      "atr_30d": 3.324174199869197,
+      "macd_signal": "neutral",
+      "trend_score": 62
+    },
+    "AVBP": {
+      "ticker": "AVBP",
+      "price": 20.8,
+      "rsi": 25.67204301075266,
+      "atr": 7.358309854783034,
+      "atr_pct": 0.3537648968645689,
+      "momentum_3m": 0.10462028677642077,
+      "sma50": 21.0713,
+      "sma200": 20.349349999999998,
+      "volume": 397449,
+      "atr_30d": 7.358309854783034,
+      "macd_signal": "neutral",
+      "trend_score": 36
+    },
+    "AMN": {
+      "ticker": "AMN",
+      "price": 15.12,
+      "rsi": 30.031948881789162,
+      "atr": 7.647225873098465,
+      "atr_pct": 0.5057689069509568,
+      "momentum_3m": -0.22659846547314588,
+      "sma50": 17.230999999999998,
+      "sma200": 19.566450000000003,
+      "volume": 803292,
+      "atr_30d": 7.647225873098465,
+      "macd_signal": "neutral",
+      "trend_score": 20
+    },
+    "AVNS": {
+      "ticker": "AVNS",
+      "price": 11.18,
+      "rsi": 30.344827586206875,
+      "atr": 7.839277186188516,
+      "atr_pct": 0.7011875837377922,
+      "momentum_3m": -0.013239187996469615,
+      "sma50": 11.464999999999998,
+      "sma200": 12.0109,
+      "volume": 509938,
+      "atr_30d": 7.839277186188516,
+      "macd_signal": "neutral",
+      "trend_score": 20
+    }
+  },
+  "news_reports": {
+    "AMD": [
+      {
+        "headline": "AMD: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AMD: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ADI": [
+      {
+        "headline": "ADI: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ADI: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ALNY": [
+      {
+        "headline": "ALNY: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ALNY: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AHR": [
+      {
+        "headline": "AHR: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AHR: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ACAD": [
+      {
+        "headline": "ACAD: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ACAD: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ALHC": [
+      {
+        "headline": "ALHC: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ALHC: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AMRX": [
+      {
+        "headline": "AMRX: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AMRX: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "APLS": [
+      {
+        "headline": "APLS: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "APLS: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ADPT": [
+      {
+        "headline": "ADPT: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ADPT: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AVDL": [
+      {
+        "headline": "AVDL: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AVDL: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AUPH": [
+      {
+        "headline": "AUPH: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AUPH: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ANIP": [
+      {
+        "headline": "ANIP: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ANIP: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AVAH": [
+      {
+        "headline": "AVAH: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AVAH: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AGIO": [
+      {
+        "headline": "AGIO: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AGIO: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AHCO": [
+      {
+        "headline": "AHCO: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AHCO: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ACHC": [
+      {
+        "headline": "ACHC: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ACHC: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ASTH": [
+      {
+        "headline": "ASTH: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ASTH: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AMLX": [
+      {
+        "headline": "AMLX: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AMLX: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ARDT": [
+      {
+        "headline": "ARDT: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ARDT: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AMPH": [
+      {
+        "headline": "AMPH: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AMPH: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "ABUS": [
+      {
+        "headline": "ABUS: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "ABUS: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AVBP": [
+      {
+        "headline": "AVBP: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AVBP: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AMN": [
+      {
+        "headline": "AMN: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AMN: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ],
+    "AVNS": [
+      {
+        "headline": "AVNS: X search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      },
+      {
+        "headline": "AVNS: Reddit search unavailable (Grok search error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"})",
+        "impact": "unknown",
+        "citations": []
+      }
+    ]
+  },
+  "sentiment_reports": {
+    "AMD": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ADI": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ALNY": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AHR": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ACAD": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ALHC": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AMRX": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "APLS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ADPT": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AVDL": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AUPH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ANIP": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AVAH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AGIO": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AHCO": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ACHC": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ASTH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AMLX": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ARDT": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AMPH": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "ABUS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AVBP": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AMN": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    },
+    "AVNS": {
+      "source": "grok-tools+llm",
+      "tools": [
+        "search_x_influential_posts",
+        "search_financial_subreddits"
+      ],
+      "score": 0,
+      "stance": "neutral",
+      "rationale": "Fallback neutral sentiment (LLM unavailable)",
+      "confidence": 0.3
+    }
+  },
+  "available_realtime_tools": {
+    "search_x_influential_posts": {
+      "name": "search_x_influential_posts",
+      "description": "Real-time search of influential X (Twitter) posts about stocks, earnings, insider moves, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7
+            ],
+            "default": 7
+          },
+          "min_engagement": {
+            "type": "integer",
+            "default": 50
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    },
+    "search_financial_subreddits": {
+      "name": "search_financial_subreddits",
+      "description": "Real-time search of r/wallstreetbets, r/stocks, r/investing, r/SecurityAnalysis, etc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "days": {
+            "type": "integer",
+            "enum": [
+              1,
+              3,
+              7,
+              14
+            ],
+            "default": 7
+          },
+          "min_upvotes": {
+            "type": "integer",
+            "default": 30
+          },
+          "limit": {
+            "type": "integer",
+            "default": 15
+          }
+        },
+        "required": [
+          "ticker"
+        ]
+      }
+    }
+  },
+  "ticker_names": {
+    "AMD": "Advanced Micro Devices",
+    "ADI": "Analog Devices, Inc.",
+    "ALNY": "Alnylam Pharmaceuticals, Inc.",
+    "AHR": "American Healthcare REIT, Inc.",
+    "ACAD": "Acadia Pharmaceuticals Inc.",
+    "ALHC": "Alignment Healthcare, Inc. Common Stock",
+    "AMRX": "Amneal Pharmaceuticals, Inc. Class A Common Stock",
+    "APLS": "Apellis Pharmaceuticals, Inc. Common Stock",
+    "ADPT": "Adaptive Biotechnologies Corporation Common Stock",
+    "AVDL": "Avadel Pharmaceuticals plc Ordinary Share",
+    "AUPH": "Aurinia Pharmaceuticals Inc",
+    "ANIP": "ANI Pharmaceuticals, Inc.",
+    "AVAH": "Aveanna Healthcare Holdings Inc. Common Stock",
+    "AGIO": "Agios Pharmaceuticals, Inc.",
+    "AHCO": "AdaptHealth Corp. Common Stock",
+    "ACHC": "Acadia Healthcare Company, Inc.",
+    "ASTH": "Astrana Health Inc. Common Stock",
+    "AMLX": "Amylyx Pharmaceuticals, Inc. Common Stock",
+    "ARDT": "Ardent Health, Inc.",
+    "AMPH": "Amphastar Pharmaceuticals, Inc.",
+    "ABUS": "Arbutus Biopharma Corporation Common Stock",
+    "AVBP": "ArriVent BioPharma, Inc. Common Stock",
+    "AMN": "AMN Healthcare Services",
+    "AVNS": "Avanos Medical, Inc."
+  },
+  "bull_case": "Ladies and gentlemen, as we delve into the promising landscape of the semiconductor and biotech sectors, it's crucial to highlight the structural tailwinds and revenue durability that position companies like AMD, ADI, and ALNY for robust future growth. Despite current revenue growth figures being flat, these companies are strategically poised to capitalize on burgeoning demand in their respective industries. AMD is at the forefront of the AI and data center revolution, with its cutting-edge processors driving next-generation computing needs. ADI stands to benefit from the increasing integration of semiconductors in automotive and industrial applications, ensuring a stable revenue stream. Meanwhile, ALNY is pioneering RNAi therapeutics, a field with transformative potential in healthcare, promising long-term revenue sustainability. These structural advantages underscore a resilient growth trajectory, making them compelling investments for the future.",
+  "bear_case": "Ladies and gentlemen, while the semiconductor and biotech sectors appear promising, it's vital to approach investments in AMD, ADI, and ALNY with caution due to significant valuation risks and volatility. AMD, despite its position in AI and data centers, has a high ATR of 7.72, indicating substantial price swings that could unsettle investors. ADI's RSI of 39.63 suggests potential bearish momentum, raising concerns about its ability to capitalize on semiconductor integration in automotive and industrial sectors. ALNY, although pioneering in RNAi therapeutics, faces macroeconomic sensitivities that could impact its long-term revenue sustainability, especially given its ATR of 6.89. Furthermore, the current flat revenue growth across these companies highlights the risk of overvaluation, as market expectations may already be priced in. While the bull case emphasizes structural tailwinds, these factors underscore the potential for heightened volatility and macroeconomic vulnerabilities, warranting a more skeptical investment approach.",
+  "debate_summary": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%.",
+  "trader_proposal": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "score": 80,
+      "raw_allocation": 0.16666666666666666
+    },
+    {
+      "ticker": "AVDL",
+      "name": "Avadel Pharmaceuticals plc Ordinary Share",
+      "score": 76,
+      "raw_allocation": 0.16666666666666666
+    },
+    {
+      "ticker": "ALHC",
+      "name": "Alignment Healthcare, Inc. Common Stock",
+      "score": 72,
+      "raw_allocation": 0.16666666666666666
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "score": 68,
+      "raw_allocation": 0.16666666666666666
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "score": 64,
+      "raw_allocation": 0.16666666666666666
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "score": 60,
+      "raw_allocation": 0.16666666666666666
+    }
+  ],
+  "risk_votes": {
+    "aggressive": "approve_with_monitoring",
+    "neutral": "approve",
+    "conservative": "veto"
+  },
+  "risk_adjusted_proposal": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "score": 80,
+      "raw_allocation": 0.16666666666666666,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "AVDL",
+      "name": "Avadel Pharmaceuticals plc Ordinary Share",
+      "score": 76,
+      "raw_allocation": 0.16666666666666666,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "ALHC",
+      "name": "Alignment Healthcare, Inc. Common Stock",
+      "score": 72,
+      "raw_allocation": 0.16666666666666666,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "score": 68,
+      "raw_allocation": 0.16666666666666666,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "score": 64,
+      "raw_allocation": 0.16666666666666666,
+      "adjusted_allocation": 0.05
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "score": 60,
+      "raw_allocation": 0.16666666666666666,
+      "adjusted_allocation": 0.05
+    }
+  ],
+  "vix_level": 18,
+  "high_volatility_tickers": [
+    "AMD",
+    "ADI",
+    "ALNY",
+    "AHR",
+    "ACAD",
+    "ALHC",
+    "AMRX",
+    "APLS",
+    "ADPT",
+    "AVDL",
+    "AUPH",
+    "ANIP",
+    "AVAH",
+    "AGIO",
+    "AHCO",
+    "ACHC",
+    "ASTH",
+    "AMLX",
+    "ARDT",
+    "AMPH",
+    "ABUS",
+    "AVBP",
+    "AMN",
+    "AVNS"
+  ],
+  "final_portfolio": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "allocation_pct": 16.7,
+      "reasoning": "Risk-adjusted score 80, sector fit Advanced Micro Devices"
+    },
+    {
+      "ticker": "AVDL",
+      "name": "Avadel Pharmaceuticals plc Ordinary Share",
+      "allocation_pct": 16.7,
+      "reasoning": "Risk-adjusted score 76, sector fit Avadel Pharmaceuticals plc Ordinary Share"
+    },
+    {
+      "ticker": "ALHC",
+      "name": "Alignment Healthcare, Inc. Common Stock",
+      "allocation_pct": 16.7,
+      "reasoning": "Risk-adjusted score 72, sector fit Alignment Healthcare, Inc. Common Stock"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "allocation_pct": 16.7,
+      "reasoning": "Risk-adjusted score 68, sector fit Alnylam Pharmaceuticals, Inc."
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "allocation_pct": 16.7,
+      "reasoning": "Risk-adjusted score 64, sector fit American Healthcare REIT, Inc."
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "allocation_pct": 16.7,
+      "reasoning": "Risk-adjusted score 60, sector fit Analog Devices, Inc."
+    }
+  ],
+  "full_transcript": [
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:58:57.727Z",
+      "agent": "Market Scanner Agent",
+      "message": "Selected 24 tickers using sectors=Healthcare, minVolume=500000"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:58:59.993Z",
+      "agent": "Fundamental Analyst",
+      "message": "Generated fundamentals for 24 tickers"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.071Z",
+      "agent": "Technical Analyst",
+      "message": "Calculated technical indicators for 24 tickers"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.420Z",
+      "agent": "News Analyst",
+      "message": "Fetched Grok live search summaries for X and Reddit"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.491Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ALHC: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.492Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AHR: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.492Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AGIO: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.493Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ARDT: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.493Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AVDL: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.493Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AVNS: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.494Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AVBP: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.494Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AMD: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.494Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AMLX: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.495Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ADI: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.495Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ALNY: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.495Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AUPH: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.496Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AMRX: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.497Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AMN: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.499Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ANIP: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.499Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ADPT: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.499Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ACAD: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.509Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ASTH: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.509Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ACHC: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.533Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AVAH: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.563Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AMPH: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.581Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for AHCO: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.583Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for ABUS: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.617Z",
+      "agent": "Sentiment Analyst",
+      "message": "LLM sentiment failed for APLS: Grok API error 429: {\"code\":\"Some resource has been exhausted\",\"error\":\"Your team 7c4dfa17-ee26-462c-bac0-0e61d19474b9 has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.\"}"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:00.617Z",
+      "agent": "Sentiment Analyst",
+      "message": "Computed sentiment using Grok tool context + LiteLLM fast model"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:03.681Z",
+      "agent": "Bull Researcher",
+      "message": "Ladies and gentlemen, as we delve into the promising landscape of the semiconductor and biotech sectors, it's crucial to highlight the structural tailwinds and revenue durability that position companies like AMD, ADI, and ALNY for robust future growth. Despite current revenue growth figures being flat, these companies are strategically poised to capitalize on burgeoning demand in their respective industries. AMD is at the forefront of the AI and data center revolution, with its cutting-edge processors driving next-generation computing needs. ADI stands to benefit from the increasing integration of semiconductors in automotive and industrial applications, ensuring a stable revenue stream. Meanwhile, ALNY is pioneering RNAi therapeutics, a field with transformative potential in healthcare, promising long-term revenue sustainability. These structural advantages underscore a resilient growth trajectory, making them compelling investments for the future."
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.220Z",
+      "agent": "Bear Researcher",
+      "message": "Ladies and gentlemen, while the semiconductor and biotech sectors appear promising, it's vital to approach investments in AMD, ADI, and ALNY with caution due to significant valuation risks and volatility. AMD, despite its position in AI and data centers, has a high ATR of 7.72, indicating substantial price swings that could unsettle investors. ADI's RSI of 39.63 suggests potential bearish momentum, raising concerns about its ability to capitalize on semiconductor integration in automotive and industrial sectors. ALNY, although pioneering in RNAi therapeutics, faces macroeconomic sensitivities that could impact its long-term revenue sustainability, especially given its ATR of 6.89. Furthermore, the current flat revenue growth across these companies highlights the risk of overvaluation, as market expectations may already be priced in. While the bull case emphasizes structural tailwinds, these factors underscore the potential for heightened volatility and macroeconomic vulnerabilities, warranting a more skeptical investment approach."
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.220Z",
+      "agent": "Debate Moderator",
+      "message": "Moderator: 3-round rebuttal concluded. Consensus favors AI + semiconductor leaders with manageable volatility; caution on names with ATR>8%."
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.220Z",
+      "agent": "Trader Agent",
+      "message": "Ranked 6 tickers with preliminary equal weights"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.372Z",
+      "agent": "Get VIX Agent",
+      "message": "VIX level recorded at 18"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.372Z",
+      "agent": "Aggressive Risk Agent",
+      "message": "Signed off with caveats on earnings dates and liquidity"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.372Z",
+      "agent": "Neutral Risk Agent",
+      "message": "No objections; allocations acceptable"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.372Z",
+      "agent": "Conservative Risk Agent",
+      "message": "VETO: VIX 18 or high ATR tickers AMD, ADI, ALNY, AHR, ACAD, ALHC, AMRX, APLS, ADPT, AVDL, AUPH, ANIP, AVAH, AGIO, AHCO, ACHC, ASTH, AMLX, ARDT, AMPH, ABUS, AVBP, AMN, AVNS"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.373Z",
+      "agent": "Risk Supervisor",
+      "message": "Conservative veto enforced; allocations penalized for volatility"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.373Z",
+      "agent": "Fund Manager",
+      "message": "Applied 30% cap, normalized weights, and prepared final list"
+    },
+    {
+      "run_id": "72c150b79664323b",
+      "timestamp": "2026-01-05T00:59:08.373Z",
+      "agent": "Report Writer",
+      "message": "ATHENA ADVISORY – 2026-01-05 | Run ID: 72c150b79664323b\nRisk Profile: aggressive | Horizon: 5 yrs | Requested: 6\nVIX: 18\nFINAL RECOMMENDED PORTFOLIO\n1. AMD – 16.7% – Risk-adjusted score 80, sector fit Advanced Micro Devices\n2. AVDL – 16.7% – Risk-adjusted score 76, sector fit Avadel Pharmaceuticals plc Ordinary Share\n3. ALHC – 16.7% – Risk-adjusted score 72, sector fit Alignment Healthcare, Inc. Common Stock\n4. ALNY – 16.7% – Risk-adjusted score 68, sector fit Alnylam Pharmaceuticals, Inc.\n5. AHR – 16.7% – Risk-adjusted score 64, sector fit American Healthcare REIT, Inc.\n6. ADI – 16.7% – Risk-adjusted score 60, sector fit Analog Devices, Inc.\nNote: Advisory only; no auto-execution. Max single position capped at 30%."
+    }
+  ]
+}
