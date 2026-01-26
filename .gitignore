@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Runtime/temporary files
+*.log
+.tmp/
+.tmp.*
+*.tmp
+
+# Credentials/keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.keystore
+
+# Local config/secrets
+*.local
+*.secrets
+secrets/
+
+# Build/output
+/dist/
+/build/
+/out/
+
+# Run artifacts/state dumps
+runs/
+src/runs/
+
+# Misc
+*.bak
