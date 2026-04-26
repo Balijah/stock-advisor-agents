@@ -322,15 +322,21 @@ export async function fetchFundamentals(ticker) {
 // 3. Technical Indicators (via Polygon aggregates + calculation)
 export async function fetchTechnicalIndicators(ticker, days = 365) {
   if (!IS_LIVE) {
+    const hash = [...ticker].reduce((sum, c) => sum + c.charCodeAt(0), 0);
+    const base = (hash % 100) / 100;
+    const price = 120 + base * 180;
+    const atr = price * (0.01 + (base % 0.04));
     return {
       ticker,
-      rsi: 30 + Math.random() * 40,
-      macd: Math.random() > 0.5 ? 1.2 : -0.8,
-      atr: 2 + Math.random() * 6,
-      sma50: 100 + Math.random() * 50,
-      sma200: 90 + Math.random() * 60,
-      price: 150 + Math.random() * 300,
-      volume: 1e6 + Math.random() * 1e8,
+      rsi: 35 + base * 35,
+      macd: base > 0.5 ? 1.2 : -0.8,
+      atr,
+      atr_pct: atr / price,
+      momentum_3m: (base - 0.5) * 0.3,
+      sma50: price * 0.98,
+      sma200: price * 0.94,
+      price,
+      volume: Math.round(1e6 + base * 8e7),
     };
   }
 
@@ -515,6 +521,21 @@ function calculateRSI(prices, period = 14) {
 }
 
 function calculateATR(days) {
-  // Simplified — in prod use proper TA library
-  return 3 + Math.random() * 5;
+  if (!Array.isArray(days) || days.length < 2) return 0;
+  const ranges = [];
+  for (let i = 1; i < days.length; i += 1) {
+    const curr = days[i];
+    const prev = days[i - 1];
+    const high = Number(curr?.h ?? 0);
+    const low = Number(curr?.l ?? 0);
+    const prevClose = Number(prev?.c ?? 0);
+    const tr = Math.max(
+      high - low,
+      Math.abs(high - prevClose),
+      Math.abs(low - prevClose)
+    );
+    ranges.push(tr);
+  }
+  if (!ranges.length) return 0;
+  return ranges.reduce((sum, v) => sum + v, 0) / ranges.length;
 }
