@@ -1,39 +1,15 @@
-// src/llm.js
-// LiteLLM-based helpers for unified LLM access.
+import dotenv from "dotenv";
 
-import { callGrokChat } from "./grok.js";
+dotenv.config({ path: new URL("../.env", import.meta.url) });
 
 const FAST_MODEL = process.env.FAST_MODEL || "gpt-4o-mini";
-const DEEP_MODEL = process.env.DEEP_MODEL || "gpt-4o-mini";
-const REASONING_MODEL = process.env.REASONING_MODEL || "gpt-4o";
+const DEEP_MODEL = process.env.DEEP_MODEL || "gpt-4o";
+const REASONING_MODEL = process.env.REASONING_MODEL || "claude-3-7-sonnet-latest";
 
-async function getLiteLLM() {
-  // Lazy import to avoid startup penalty if LLMs are not used.
-  try {
-    return await import("litellm");
-  } catch (err) {
-    throw new Error(
-      "litellm package not found. Install with `npm install litellm` to enable LLM calls."
-    );
-  }
-}
-
-async function callOpenAIResponses(prompt, { model, temperature, max_tokens }) {
+async function callOpenAIResponses(prompt, { model, temperature, max_tokens, tools }) {
   if (!process.env.OPENAI_API_KEY) {
-    throw new Error(
-      "OPENAI_API_KEY missing. Set OPENAI_API_KEY in your environment or .env (no quotes)."
-    );
+    throw new Error("OPENAI_API_KEY missing in env");
   }
-  const isO1Model = /^o1(\b|-)/.test(model);
-  const supportsTemperature = !isO1Model;
-  const body = {
-    model,
-    input: prompt,
-    ...(isO1Model ? { text: { format: { type: "text" }, verbosity: "low" } } : {}),
-    ...(isO1Model ? { reasoning: { effort: "low" } } : {}),
-    ...(supportsTemperature ? { temperature } : {}),
-    max_output_tokens: max_tokens,
-  };
 
   const res = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
@@ -41,95 +17,112 @@ async function callOpenAIResponses(prompt, { model, temperature, max_tokens }) {
       Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(body),
+    body: JSON.stringify({
+      model,
+      input: prompt,
+      temperature,
+      max_output_tokens: max_tokens,
+      ...(Array.isArray(tools) && tools.length ? { tools } : {}),
+    }),
   });
 
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(text || `OpenAI error: ${res.status}`);
-  }
+  if (!res.ok) throw new Error(await res.text());
   const data = await res.json();
-  const outputBlocks = Array.isArray(data?.output) ? data.output : [];
-  const outputText =
-    data?.output_text ||
-    outputBlocks
-      .flatMap((block) => (Array.isArray(block?.content) ? block.content : []))
-      .map((item) => item?.text || item?.output_text || "")
-      .join(" ")
-      .trim() ||
-    "";
-  return outputText.trim();
+  const text = (data.output_text || "").trim();
+  const citations = extractOpenAICitations(data);
+  return { text, citations };
 }
 
-export async function llmFast(prompt, options = {}) {
-  return runLLM({ prompt, model: FAST_MODEL, ...options });
-}
+async function callAnthropicMessages(prompt, { model, max_tokens }) {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    throw new Error("ANTHROPIC_API_KEY missing in env");
+  }
 
-export async function llmDeep(prompt, options = {}) {
-  return runLLM({ prompt, model: DEEP_MODEL, ...options });
-}
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "x-api-key": process.env.ANTHROPIC_API_KEY,
+      "anthropic-version": "2023-06-01",
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      max_tokens,
+      messages: [{ role: "user", content: prompt }],
+    }),
+  });
 
-export async function llmReasoning(prompt, options = {}) {
-  return runLLM({ prompt, model: REASONING_MODEL, ...options });
+  if (!res.ok) throw new Error(await res.text());
+  const data = await res.json();
+  const text = Array.isArray(data?.content)
+    ? data.content.map((c) => (c?.type === "text" ? c.text : "")).join(" ")
+    : "";
+  return text.trim();
 }
 
 async function runLLM({ prompt, model, temperature = 0.2, max_tokens = 400 }) {
-  // Basic validation and helpful errors
-  const modelId = typeof model === "string" ? model : "";
-  const isProviderPrefixed = modelId.includes("/");
-  const isGrokModel =
-    modelId.startsWith("grok/") ||
-    modelId.startsWith("xai/") ||
-    modelId.startsWith("grok-");
-  const isOpenAIModel = !isProviderPrefixed || modelId.startsWith("openai/");
-
-  if (isGrokModel) {
+  const modelId = String(model || "");
+  if (modelId.startsWith("anthropic/") || modelId.startsWith("claude-")) {
     const normalized = modelId.includes("/") ? modelId.split("/").pop() : modelId;
-    return callGrokChat(prompt, { model: normalized, temperature, max_tokens });
+    const text = await callAnthropicMessages(prompt, { model: normalized, max_tokens });
+    return { text, citations: [] };
   }
 
-  if (isOpenAIModel) {
-    const normalized = modelId.includes("/") ? modelId.split("/").pop() : modelId;
-    return callOpenAIResponses(prompt, {
-      model: normalized,
-      temperature,
-      max_tokens,
-    });
-  }
-  const { completion } = await getLiteLLM();
-  try {
-    const res = await completion({
-      model,
-      messages: [{ role: "user", content: prompt }],
-      temperature,
-      max_tokens,
-    });
-    return extractContent(res);
-  } catch (err) {
-    // Surface common causes more clearly
-    if (
-      err?.message?.includes("401") ||
-      err?.message?.toLowerCase().includes("incorrect api key")
-    ) {
-      throw new Error("Authentication failed: OPENAI_API_KEY invalid or revoked.");
-    }
-    throw err;
-  }
+  const normalized = modelId.includes("/") ? modelId.split("/").pop() : modelId;
+  return callOpenAIResponses(prompt, { model: normalized, temperature, max_tokens });
 }
 
-function extractContent(res) {
-  const maybeChoice = res?.choices?.[0]?.message?.content;
-  if (typeof maybeChoice === "string") return maybeChoice.trim();
-  if (Array.isArray(maybeChoice)) {
-    return maybeChoice.map((c) => c?.text ?? c).join(" ").trim();
+export async function llmFast(prompt, options = {}) {
+  const out = await runLLM({ prompt, model: FAST_MODEL, ...options });
+  return out.text;
+}
+
+export async function llmDeep(prompt, options = {}) {
+  const out = await runLLM({ prompt, model: DEEP_MODEL, ...options });
+  return out.text;
+}
+
+export async function llmReasoning(prompt, options = {}) {
+  const out = await runLLM({ prompt, model: REASONING_MODEL, ...options });
+  return out.text;
+}
+
+export async function llmWebResearch(prompt, options = {}) {
+  const model = options.model || FAST_MODEL;
+  const modelId = String(model || "");
+  if (modelId.startsWith("anthropic/") || modelId.startsWith("claude-")) {
+    const text = await llmFast(prompt, options);
+    return { text, citations: [] };
   }
-  return "";
+  const normalized = modelId.includes("/") ? modelId.split("/").pop() : modelId;
+  return callOpenAIResponses(prompt, {
+    model: normalized,
+    temperature: options.temperature ?? 0.2,
+    max_tokens: options.max_tokens ?? 400,
+    tools: [{ type: "web_search_preview" }],
+  });
 }
 
 export function tryParseJson(text, fallback = null) {
   try {
     return JSON.parse(text);
-  } catch (_err) {
+  } catch {
     return fallback;
   }
+}
+
+function extractOpenAICitations(data) {
+  const urls = new Set();
+  const output = Array.isArray(data?.output) ? data.output : [];
+  output.forEach((item) => {
+    const content = Array.isArray(item?.content) ? item.content : [];
+    content.forEach((c) => {
+      const annotations = Array.isArray(c?.annotations) ? c.annotations : [];
+      annotations.forEach((a) => {
+        const u = a?.url || a?.source?.url || a?.citation?.url;
+        if (typeof u === "string" && u.startsWith("http")) urls.add(u);
+      });
+    });
+  });
+  return Array.from(urls);
 }

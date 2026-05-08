@@ -39,6 +39,20 @@ export const analyzeResponseSchema = z.object({
   diagnostics: z.object({
     stage_warnings: z.array(z.string()),
     provider_health: z.record(z.string(), z.boolean()),
+    stage_statuses: z.record(
+      z.string(),
+      z.object({
+        status: z.enum(["success", "degraded", "failed"]),
+        duration_ms: z.number(),
+        warning_count: z.number(),
+      })
+    ),
+    candidate_stats: z.object({
+      discovered_count: z.number(),
+      validated_count: z.number(),
+      enriched_count: z.number(),
+      excluded_by_sector: z.number(),
+    }),
   }),
 });
 

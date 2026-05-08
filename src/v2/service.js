@@ -14,10 +14,8 @@ export function getHealth() {
     status: "ok",
     time: new Date().toISOString(),
     env: {
-      LIVE_DATA: process.env.LIVE_DATA === "true",
-      POLYGON_API_KEY: Boolean(process.env.POLYGON_API_KEY),
-      XAI_API_KEY: Boolean(process.env.XAI_API_KEY),
       OPENAI_API_KEY: Boolean(process.env.OPENAI_API_KEY),
+      ANTHROPIC_API_KEY: Boolean(process.env.ANTHROPIC_API_KEY),
     },
   };
 }
