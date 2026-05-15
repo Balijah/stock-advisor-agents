@@ -1,5 +1,6 @@
 export class Coordinator {
-  constructor({ runId, userInput }) {
+  constructor({ runId, userInput, emitEvent }) {
+    this.emitEvent = emitEvent || (() => {});
     this.context = {
       run_id: runId,
       user_input: userInput,
@@ -26,9 +27,16 @@ export class Coordinator {
   }
 
   log(stage, message) {
-    this.context.transcript.push({
+    const entry = {
       timestamp: new Date().toISOString(),
       stage,
+      message,
+    };
+    this.context.transcript.push(entry);
+    this.emitEvent({
+      event_type: "workflow_log",
+      stage,
+      status: "info",
       message,
     });
   }
@@ -60,6 +68,12 @@ export class Coordinator {
 export async function runStage(coordinator, stageName, fn, { critical = false } = {}) {
   const start = Date.now();
   coordinator.log(stageName, `${stageName} started`);
+  coordinator.emitEvent({
+    event_type: "stage_started",
+    stage: stageName,
+    status: "running",
+    message: `${stageName} started`,
+  });
 
   try {
     const result = await fn(coordinator.context);
@@ -71,6 +85,15 @@ export async function runStage(coordinator, stageName, fn, { critical = false } 
       status,
       duration_ms: Date.now() - start,
       warning_count: warnings.length,
+    });
+    coordinator.emitEvent({
+      event_type: "stage_completed",
+      stage: stageName,
+      status,
+      duration_ms: Date.now() - start,
+      warning_count: warnings.length,
+      metrics: result?.metrics || {},
+      message: `${stageName} ${status}`,
     });
 
     coordinator.log(stageName, `${stageName} ${status}`);
@@ -84,6 +107,14 @@ export async function runStage(coordinator, stageName, fn, { critical = false } 
       status,
       duration_ms: Date.now() - start,
       warning_count: 1,
+    });
+    coordinator.emitEvent({
+      event_type: "stage_warning",
+      stage: stageName,
+      status,
+      duration_ms: Date.now() - start,
+      warning_count: 1,
+      message: warning,
     });
     coordinator.log(stageName, `${stageName} ${status}`);
 

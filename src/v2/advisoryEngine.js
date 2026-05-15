@@ -4,10 +4,16 @@ import { persistRun } from "./persistence.js";
 import { buildAgentRegistry } from "./agentRegistry.js";
 import { Coordinator, runStage } from "./coordinator.js";
 
-export async function runAdvisoryV2(userInput) {
-  const runId = crypto.randomBytes(8).toString("hex");
-  const coordinator = new Coordinator({ runId, userInput });
+export async function runAdvisoryV2(userInput, options = {}) {
+  const runId = options.runId || crypto.randomBytes(8).toString("hex");
+  const coordinator = new Coordinator({ runId, userInput, emitEvent: options.emitEvent });
   const agents = buildAgentRegistry();
+  coordinator.emitEvent({
+    event_type: "run_started",
+    stage: "run",
+    status: "running",
+    message: "Run started",
+  });
 
   const stageOrder = [
     ["candidate_discovery", false],
@@ -51,5 +57,12 @@ export async function runAdvisoryV2(userInput) {
 
   const parsed = analyzeResponseSchema.parse(result);
   persistRun(parsed);
+  coordinator.emitEvent({
+    event_type: coordinator.context.hard_failed ? "run_failed" : "run_completed",
+    stage: "run",
+    status: coordinator.context.hard_failed ? "failed" : "completed",
+    message: coordinator.context.hard_failed ? "Run failed" : "Run completed",
+    metrics: parsed.diagnostics?.candidate_stats || {},
+  });
   return parsed;
 }

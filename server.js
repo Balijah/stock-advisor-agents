@@ -3,7 +3,8 @@ import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
 import { runAthenaAdvisory } from "./src/main.js";
-import { analyzeV2, getHealth, getRunById } from "./src/v2/service.js";
+import { analyzeV2, getHealth, getPersistedRunById, getRunStatus, startRunV2 } from "./src/v2/service.js";
+import { subscribe } from "./src/v2/runRegistry.js";
 import { parseAnalyzeRequest } from "./src/v2/schemas.js";
 
 const PORT = Number(process.env.PORT || 3001);
@@ -34,12 +35,47 @@ export function createApp() {
   });
 
   app.get("/api/v2/runs/:runId", (req, res) => {
-    const run = getRunById(req.params.runId);
+    const run = getRunStatus(req.params.runId) || getPersistedRunById(req.params.runId);
     if (!run) {
       sendError(res, req.correlationId, "RUN_NOT_FOUND", new Error("Run not found"), 404);
       return;
     }
     res.json({ success: true, correlation_id: req.correlationId, data: run });
+  });
+
+  app.post("/api/v2/runs", async (req, res) => {
+    try {
+      const payload = parseAnalyzeRequest(req.body || {});
+      const run = startRunV2(payload);
+      res.status(202).json({ success: true, correlation_id: req.correlationId, data: run });
+    } catch (error) {
+      sendError(res, req.correlationId, "RUN_CREATE_FAILED", error, 400);
+    }
+  });
+
+  app.get("/api/v2/runs/:runId/events", (req, res) => {
+    res.setHeader("Content-Type", "text/event-stream");
+    res.setHeader("Cache-Control", "no-cache");
+    res.setHeader("Connection", "keep-alive");
+    res.flushHeaders?.();
+
+    const unsub = subscribe(req.params.runId, res);
+    if (!unsub) {
+      res.write(`event: workflow\n`);
+      res.write(`data: ${JSON.stringify({ event_type: "run_failed", message: "Run not found" })}\n\n`);
+      res.end();
+      return;
+    }
+
+    const heartbeat = setInterval(() => {
+      res.write(`: keepalive\n\n`);
+    }, 15000);
+
+    req.on("close", () => {
+      clearInterval(heartbeat);
+      unsub();
+      res.end();
+    });
   });
 
   // Compatibility shim for existing clients.
