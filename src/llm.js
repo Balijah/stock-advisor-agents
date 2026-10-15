@@ -28,7 +28,7 @@ async function callOpenAIResponses(prompt, { model, temperature, max_tokens, too
 
   if (!res.ok) throw new Error(await res.text());
   const data = await res.json();
-  const text = (data.output_text || "").trim();
+  const text = extractOpenAIText(data);
   const citations = extractOpenAICitations(data);
   return { text, citations };
 }
@@ -109,6 +109,24 @@ export function tryParseJson(text, fallback = null) {
   } catch {
     return fallback;
   }
+}
+
+export function extractOpenAIText(data) {
+  if (typeof data?.output_text === "string" && data.output_text.trim()) {
+    return data.output_text.trim();
+  }
+  const output = Array.isArray(data?.output) ? data.output : [];
+  const pieces = [];
+  for (const item of output) {
+    if (item?.type === "message" && Array.isArray(item.content)) {
+      for (const block of item.content) {
+        if (block?.type === "output_text" && typeof block.text === "string") {
+          pieces.push(block.text);
+        }
+      }
+    }
+  }
+  return pieces.join("").trim();
 }
 
 function extractOpenAICitations(data) {
