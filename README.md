@@ -1,41 +1,132 @@
-## Athena Advisory – Autonomous Trading Advisory Crew
+# Sharia Compliance Screener
 
-Implements the 15-agent orchestration defined in `README.txt`. This build is advisory-only (no auto-execution) and caps single positions at 30% with conservative veto logic tied to VIX/ATR.
+Screens public equities against Sharia compliance criteria using a pluggable evidence-provider architecture and a versioned, configurable methodology.
 
-### Run a demo
+> **Disclaimer:** The screening thresholds shipped here are **placeholders** loosely modeled on publicly available AAOIFI guidelines. They have **not** been reviewed or approved by a qualified Sharia adviser. Do not rely on screening results for investment decisions without independent Sharia certification.
+
+## Architecture
+
+```
+src/
+  screening/          Screening engine (pure functions, no I/O)
+    methodology.js    Named, versioned methodology config (AAOIFI placeholder)
+    screen.js         screenCompany(evidence, opts) → structured result
+    index.js          Re-exports
+
+  providers/          Evidence provider interface + implementations
+    interface.js      EvidenceProvider base class
+    demoFixtures.js   Demo fixture provider (~25 fictional companies)
+    index.js          Re-exports
+
+server.js             Express API (health, tickers, screening, methodologies)
+client/               React frontend (Vite) – search box + result view
+tests/                Unit & integration tests (node:test, no credentials needed)
+```
+
+## Quick start
+
 ```bash
-npm start
-```
-Outputs a sample portfolio and writes the full state + audit trail to `runs/<run_id>_state.json`.
-
-### Integrate programmatically
-```js
-import { runAthenaAdvisory } from "./src/main.js";
-
-const { final_portfolio, savedPath } = runAthenaAdvisory({
-  risk_tolerance: "aggressive",
-  investment_horizon_years: 7,
-  preferred_sectors: ["AI", "Quantum Computing"],
-  num_stocks_requested: 6,
-});
+npm install
+npm run start:api        # API on http://localhost:3001
+npm run dev:client       # Vite dev server on http://localhost:5173
 ```
 
-### Notes
-- Every agent logs a timestamped message with the shared `run_id` into `full_transcript`.
-- Conservative Risk Agent issues a veto if `vix_level > 30` or any ticker has `atr_30d > 0.08`; Risk Supervisor then penalizes weights.
-- Final allocations are normalized with a hard 30% cap per ticker.
+## API endpoints
 
-### Environment variables
+All endpoints under `/api/v1/`. When `API_KEY` env var is set, auth-protected endpoints require `Authorization: Bearer <key>` or `x-api-key: <key>`.
+
+| Method | Path | Auth | Description |
+|--------|------|------|-------------|
+| GET | `/api/v1/health` | No | Health check, provider info |
+| GET | `/api/v1/methodologies` | No | List available screening methodologies |
+| GET | `/api/v1/methodologies/:id` | No | Get full methodology definition |
+| GET | `/api/v1/tickers` | Yes | List tickers in the provider's directory |
+| GET | `/api/v1/screen/:ticker` | Yes | Screen a single ticker; returns outcome, per-check evidence, methodology label, and as-of dates |
+
+### Example: screen a ticker
+
+```bash
+curl http://localhost:3001/api/v1/screen/AAPL | jq .
+```
+
+Response shape:
+```json
+{
+  "success": true,
+  "demo": true,
+  "data": {
+    "outcome": "pass",
+    "ticker": "AAPL",
+    "companyName": "Apple Inc",
+    "methodology": { "id": "aaoifi-placeholder", "version": "0.1.0", "name": "..." },
+    "asOfDate": "2026-06-30",
+    "screenedAt": "2026-10-15T...",
+    "checks": [ ... ],
+    "missingFields": [],
+    "disclaimer": "..."
+  }
+}
+```
+
+Unknown tickers are rejected with a 404, not invented.
+
+## Screening methodology
+
+The default (and currently only) methodology is `aaoifi-placeholder` v0.1.0. It applies:
+
+1. **Business activity screen** – companies in prohibited sectors (conventional banking, alcohol, tobacco, pork, gambling, adult entertainment, controversial weapons) fail outright. Mixed/ambiguous activities (entertainment, hospitality, conglomerates) return `needs_review`.
+
+2. **Financial ratio screens** (applied only if business activity passes):
+   - Interest-bearing debt / market cap ≤ 33%
+   - Cash + interest-bearing securities / market cap ≤ 33%
+   - Impure income / total revenue ≤ 5%
+   - Accounts receivable / market cap ≤ 49%
+
+3. **Data staleness check** – financial data older than 365 days triggers `needs_review`.
+
+Possible outcomes: `pass`, `fail`, `needs_review`, `insufficient_or_stale_evidence`.
+
+## Evidence providers
+
+The app uses a provider interface (`EvidenceProvider` base class) to decouple the screening engine from data sources. Currently ships with a **demo fixture provider** containing ~25 fictional companies covering:
+- Clear passes (MSFT, AAPL, JNJ, NVDA, GOOGL, etc.)
+- Clear fails (JPM, BAC, DEO, PM, MGM, HIGHDEBT, HIGHCASH)
+- Needs-review (DIS, MAR, BRK.B, BORDERLINE)
+- Missing/incomplete evidence (NODATA, PARTIAL, NOCLASS, STALE)
+
+To plug in a real data source (Zoya, Musaffa, SEC EDGAR XBRL), implement the `EvidenceProvider` interface and wire it into `server.js`.
+
+## LLM usage
+
+The LLM is **not used** in the current build. The screening engine is pure computation against the methodology config and evidence. An optional LLM explainer could be wired in to narrate an already-computed result, but it would never decide pass/fail.
+
+## Tests
+
+```bash
+npm test
+```
+
+67 tests covering:
+- Screening logic (pass, fail, needs_review, boundary conditions, missing data, stale data)
+- Provider interface and demo fixtures
+- Methodology config
+- API endpoints (health, tickers, screening, auth, unknown ticker rejection)
+- Integration tests (all fixture companies through the full screening pipeline)
+
+No API keys or network access required.
+
+## Environment variables
 
 | Variable | Required | Default | Description |
 |---|---|---|---|
-| `OPENAI_API_KEY` | Yes (for LLM calls) | — | OpenAI API key |
-| `ANTHROPIC_API_KEY` | No | — | Anthropic API key (used when model starts with `claude-`) |
-| `CORS_ORIGIN` | No | `*` (dev) / blocked (prod) | Allowed CORS origin. Set to your frontend domain in production. When `NODE_ENV=production` and this is unset, CORS is blocked. |
-| `API_KEY` | No | — | When set, all analysis/run endpoints require `Authorization: Bearer <key>` or `x-api-key: <key>`. Unset = no auth (local dev). |
-| `RATE_LIMIT_WINDOW_MS` | No | `60000` | Rate-limit sliding window in milliseconds |
-| `RATE_LIMIT_MAX` | No | `20` | Max requests per window per client on analysis routes |
 | `PORT` | No | `3001` | Server listen port |
-| `FAST_MODEL` | No | `gpt-4o-mini` | Model for fast LLM calls |
-| `DEEP_MODEL` | No | `gpt-4o` | Model for deep LLM calls |
-| `REASONING_MODEL` | No | `claude-3-7-sonnet-latest` | Model for reasoning LLM calls |
+| `API_KEY` | No | — | When set, protected endpoints require this key |
+| `CORS_ORIGIN` | No | `*` (dev) / blocked (prod) | Allowed CORS origin |
+| `RATE_LIMIT_WINDOW_MS` | No | `60000` | Rate-limit window (ms) |
+| `RATE_LIMIT_MAX` | No | `60` | Max requests per window |
+
+## Build
+
+```bash
+npm run build:client     # Production Vite build
+```
