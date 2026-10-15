@@ -26,7 +26,10 @@ export function startRunV2(input) {
         emitEvent: (evt) => publishEvent(runId, evt),
       });
       attachResult(runId, result);
-      setRunStatus(runId, "completed");
+      const terminal = result.degraded_mode && result.diagnostics?.stage_statuses
+        ? Object.values(result.diagnostics.stage_statuses).some((s) => s.status === "failed")
+        : false;
+      setRunStatus(runId, terminal ? "failed" : "completed");
     } catch (err) {
       attachError(runId, err);
       setRunStatus(runId, "failed");

@@ -2,6 +2,7 @@ import crypto from "crypto";
 import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
+import rateLimit from "express-rate-limit";
 import { runAthenaAdvisory } from "./src/main.js";
 import { analyzeV2, getHealth, getPersistedRunById, getRunStatus, startRunV2 } from "./src/v2/service.js";
 import { subscribe } from "./src/v2/runRegistry.js";
@@ -11,7 +12,14 @@ const PORT = Number(process.env.PORT || 3001);
 
 export function createApp() {
   const app = express();
-  app.use(cors({ origin: process.env.CORS_ORIGIN || "*" }));
+
+  const corsOrigin = process.env.CORS_ORIGIN || (process.env.NODE_ENV === "production" ? false : "*");
+  if (corsOrigin === false) {
+    app.use(cors({ origin: false }));
+  } else {
+    app.use(cors({ origin: corsOrigin }));
+  }
+
   app.use(bodyParser.json({ limit: "1mb" }));
 
   app.use((req, res, next) => {
@@ -20,11 +28,32 @@ export function createApp() {
     next();
   });
 
+  const apiKey = process.env.API_KEY;
+  function requireAuth(req, res, next) {
+    if (!apiKey) return next();
+    const provided = req.headers.authorization?.startsWith("Bearer ")
+      ? req.headers.authorization.slice(7)
+      : req.headers["x-api-key"];
+    if (provided !== apiKey) {
+      return sendError(res, req.correlationId, "UNAUTHORIZED", new Error("Invalid or missing API key"), 401);
+    }
+    next();
+  }
+
+  const analysisLimiter = rateLimit({
+    windowMs: Number(process.env.RATE_LIMIT_WINDOW_MS) || 60_000,
+    max: Number(process.env.RATE_LIMIT_MAX) || 20,
+    standardHeaders: true,
+    legacyHeaders: false,
+    keyGenerator: (req) => req.headers["x-api-key"] || req.ip,
+    message: { success: false, error: { code: "RATE_LIMITED", message: "Too many requests, please try again later" } },
+  });
+
   app.get("/api/v2/health", (_req, res) => {
     res.json({ success: true, correlation_id: _req.correlationId, ...getHealth() });
   });
 
-  app.post("/api/v2/analyze", async (req, res) => {
+  app.post("/api/v2/analyze", requireAuth, analysisLimiter, async (req, res) => {
     try {
       const payload = parseAnalyzeRequest(req.body || {});
       const result = await analyzeV2(payload);
@@ -34,7 +63,7 @@ export function createApp() {
     }
   });
 
-  app.get("/api/v2/runs/:runId", (req, res) => {
+  app.get("/api/v2/runs/:runId", requireAuth, (req, res) => {
     const run = getRunStatus(req.params.runId) || getPersistedRunById(req.params.runId);
     if (!run) {
       sendError(res, req.correlationId, "RUN_NOT_FOUND", new Error("Run not found"), 404);
@@ -43,7 +72,7 @@ export function createApp() {
     res.json({ success: true, correlation_id: req.correlationId, data: run });
   });
 
-  app.post("/api/v2/runs", async (req, res) => {
+  app.post("/api/v2/runs", requireAuth, analysisLimiter, async (req, res) => {
     try {
       const payload = parseAnalyzeRequest(req.body || {});
       const run = startRunV2(payload);
@@ -53,7 +82,7 @@ export function createApp() {
     }
   });
 
-  app.get("/api/v2/runs/:runId/events", (req, res) => {
+  app.get("/api/v2/runs/:runId/events", requireAuth, (req, res) => {
     res.setHeader("Content-Type", "text/event-stream");
     res.setHeader("Cache-Control", "no-cache");
     res.setHeader("Connection", "keep-alive");
@@ -78,8 +107,7 @@ export function createApp() {
     });
   });
 
-  // Compatibility shim for existing clients.
-  app.post("/api/run-analysis", async (req, res) => {
+  app.post("/api/run-analysis", requireAuth, analysisLimiter, async (req, res) => {
     try {
       const userInputs = {
         risk_tolerance: req.body.risk_tolerance || "neutral",

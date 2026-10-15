@@ -9,15 +9,20 @@ test("candidate discovery tolerates non-strict JSON output", async () => {
   };
 
   const originalFetch = global.fetch;
+  const originalKey = process.env.OPENAI_API_KEY;
   global.fetch = async () => ({
     ok: true,
     json: async () => ({ output_text: "```json\n[{\"ticker\":\"LLY\",\"reason\":\"growth\"}]\n```", output: [] }),
   });
+  process.env.OPENAI_API_KEY = process.env.OPENAI_API_KEY || "test-key";
 
-  const out = await candidateDiscoveryAgent(ctx);
-
-  global.fetch = originalFetch;
-
-  assert.equal(out.status, "success");
-  assert.ok(ctx.artifacts.discovered_candidates.some((x) => x.ticker === "LLY"));
+  try {
+    const out = await candidateDiscoveryAgent(ctx);
+    assert.equal(out.status, "success");
+    assert.ok(ctx.artifacts.discovered_candidates.some((x) => x.ticker === "LLY"));
+  } finally {
+    global.fetch = originalFetch;
+    if (originalKey === undefined) delete process.env.OPENAI_API_KEY;
+    else process.env.OPENAI_API_KEY = originalKey;
+  }
 });

@@ -12,12 +12,13 @@
     "lint": "echo \"No linting configured\""
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.54.0",
     "@openai/agents": "^0.3.3",
     "body-parser": "^2.2.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "@anthropic-ai/sdk": "^0.54.0",
+    "express-rate-limit": "^8.7.1",
     "lucide-react": "^0.562.0",
     "openai": "^6.9.1",
     "react": "^19.2.0",
