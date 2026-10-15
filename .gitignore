@@ -33,7 +33,7 @@ yarn-error.log*
 secrets/
 
 # Build/output
-/dist/
+dist/
 /build/
 /out/
 
